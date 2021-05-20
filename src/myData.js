@@ -35,13 +35,13 @@ export const en = {
         },
         {
             logo: "ksar.png",
-            desc: "IT Manager at LTI El Ksar Hotel, Sousse, Tunisia.",
+            desc: "System administrator at LTI El Ksar Hotel, Sousse, Tunisia.",
             mission: "Mission : Management and maintenance of computers equipments, local networks, wifi networks, telephony, surveillance cameras, ERP system and audiovisual Manager.",
             date: "2013 - 2018",
         },
         {
             logo: "steq.png",
-            desc: "Software Developer at Tunisian company of equipments, Tunis, Tunisia.",
+            desc: "Software developer at Tunisian company of equipments, Tunis, Tunisia.",
             mission: "Mission : Development of ERP Software in FoxPro.",
             date: "2011 - 2012",
         },
@@ -74,6 +74,32 @@ export const fr = {
             date: "2009 - 2010",
         },
     ],
+    experience: [
+        {
+            logo: "flegri.png",
+            desc: "Développeur web Full-Stack au sein de Flegrei, Moscow, Russia",
+            mission: "Mission : Développement su sites web, applications web et applications mobile.",
+            date: "2019 - 2021",
+        },
+        {
+            logo: "kvantum.png",
+            desc: "Développeur web Full-Stack au sein de Kvantum, Moscow, Russia",
+            mission: "Mission : Développement su sites web, applications web et applications mobile. (Travail à distance)",
+            date: "2019 - 2021",
+        },
+        {
+            logo: "ksar.png",
+            desc: "Administrateur de système au sein de l'Hôtel LTI El Ksar, Sousse, Tunisia.",
+            mission: "Mission :  Gestion et maintenance de parc informatique, téléphonie, caméras de surveillance, système ERP et 1er responsable audiovisuelles.",
+            date: "2013 - 2018",
+        },
+        {
+            logo: "steq.png",
+            desc: "Software Developer at Tunisian company of equipments, Tunis, Tunisia.",
+            mission: "Mission : Développement du sytème ERP avec FoxPro.",
+            date: "2011 - 2012",
+        },
+    ],
 
     // Template Titles
     education_title: "Éducation",
@@ -102,6 +128,32 @@ export const ru = {
             date: "2009 - 2010",
         },
     ],
+    experience: [
+        {
+            logo: "flegri.png",
+            desc: "Веб-разработчик Full-Stack, Флегрей, Москва, Россия",
+            mission: "Обязанности: Разработка сайтов, веб-приложений и мобильных приложений.",
+            date: "2019 - 2021",
+        },
+        {
+            logo: "kvantum.png",
+            desc: "Веб-разработчик Full-Stack, Квантум, Москва, Россия",
+            mission: "Обязанности: Разработка сайтов, веб-приложений и мобильных приложений. (Remote work)",
+            date: "2019 - 2021",
+        },
+        {
+            logo: "ksar.png",
+            desc: "Системный администратор в отеле LTI El Ksar, Сусс, Тунис.",
+            mission: "Обязанности : управление и обслуживание IT оборудования, локальных сетей, Wi-Fi , телефония, камеры видеонаблюдения, система ERP и аудиовизуальный менеджер.",
+            date: "2013 - 2018",
+        },
+        {
+            logo: "steq.png",
+            desc: "Разработчик программного обеспечения в тунисской компании оборудования, Тунис, Тунис.",
+            mission: "Обязанности : Разработка программного обеспечения ERP с FoxPro.",
+            date: "2011 - 2012",
+        },
+    ],
 
     // Template Titles
     education_title: "Образование",
@@ -128,6 +180,32 @@ export const ar = {
             certificate: "شهادة سيسكو : شبكات المنازل والشركات الصغيرة",
             institute: "المعهد العالي للدراسات التكنولوجية بسوسة، تونس",
             date: "2009 - 2010",
+        },
+    ],
+    experience: [
+        {
+            logo: "flegri.png",
+            desc: "Full-Stack Web developer at Flegrei, Moscow, Russia",
+            mission: "Mission : Development of websites, web applications and mobile applications.",
+            date: "2019 - 2021",
+        },
+        {
+            logo: "kvantum.png",
+            desc: "Full-Stack Web developer at Kvantum, Moscow, Russia",
+            mission: "Mission : Development of websites, web applications and mobile applications. (Remote work)",
+            date: "2019 - 2021",
+        },
+        {
+            logo: "ksar.png",
+            desc: "IT Manager at LTI El Ksar Hotel, Sousse, Tunisia.",
+            mission: "Mission : Management and maintenance of computers equipments, local networks, wifi networks, telephony, surveillance cameras, ERP system and audiovisual Manager.",
+            date: "2013 - 2018",
+        },
+        {
+            logo: "steq.png",
+            desc: "Software Developer at Tunisian company of equipments, Tunis, Tunisia.",
+            mission: "Mission : Development of ERP Software in FoxPro.",
+            date: "2011 - 2012",
         },
     ],
 
