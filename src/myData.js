@@ -46,10 +46,52 @@ export const en = {
             date: "2011 - 2012",
         },
     ],
+    skills: [
+        {
+            groupName: "Base Skills",
+            groupSkills: [
+                "html.png",
+                "css.png",
+                "js.png",
+                "php.png",
+                "mysql.png",
+            ]
+        },
+        {
+            groupName: "Css Skills",
+            groupSkills: [
+                "sass.png",
+                "tailwindcss.png",
+                "alpinejs.png",
+                "jquery.png",
+                "bootstrap.png",
+            ]
+        },
+        {
+            groupName: "Front-end Skills",
+            groupSkills: [
+                "vuejs.png",
+                "reactjs.png",
+                "reactnative.png",
+                "angularjs.png",
+                "ionic.png",
+            ]
+        },
+        {
+            groupName: "Back-end Skills",
+            groupSkills: [
+                "laravel.png",
+                "nodejs.png",
+            ]
+        },
+        
+    ],
 
     // Template Titles
     education_title: "Education",
     experience_title: "Experience",
+    skills_title: "Skills",
+    portfolio_title: "Portfolio",
 }
 
 export const fr = {
@@ -100,10 +142,52 @@ export const fr = {
             date: "2011 - 2012",
         },
     ],
+    skills: [
+        {
+            groupName: "Base Skills",
+            groupSkills: [
+                "html.png",
+                "css.png",
+                "js.png",
+                "php.png",
+                "mysql.png",
+            ]
+        },
+        {
+            groupName: "Css Skills",
+            groupSkills: [
+                "sass.png",
+                "tailwindcss.png",
+                "alpinejs.png",
+                "jquery.png",
+                "bootstrap.png",
+            ]
+        },
+        {
+            groupName: "Front-end Skills",
+            groupSkills: [
+                "vuejs.png",
+                "reactjs.png",
+                "reactnative.png",
+                "angularjs.png",
+                "ionic.png",
+            ]
+        },
+        {
+            groupName: "Back-end Skills",
+            groupSkills: [
+                "laravel.png",
+                "nodejs.png",
+            ]
+        },
+        
+    ],
 
     // Template Titles
     education_title: "Éducation",
     experience_title: "Expérience",
+    skills_title: "Compétences",
+    portfolio_title: "Portefeuille",
 }
 
 export const ru = {
@@ -154,10 +238,52 @@ export const ru = {
             date: "2011 - 2012",
         },
     ],
+    skills: [
+        {
+            groupName: "Base Skills",
+            groupSkills: [
+                "html.png",
+                "css.png",
+                "js.png",
+                "php.png",
+                "mysql.png",
+            ]
+        },
+        {
+            groupName: "Css Skills",
+            groupSkills: [
+                "sass.png",
+                "tailwindcss.png",
+                "alpinejs.png",
+                "jquery.png",
+                "bootstrap.png",
+            ]
+        },
+        {
+            groupName: "Front-end Skills",
+            groupSkills: [
+                "vuejs.png",
+                "reactjs.png",
+                "reactnative.png",
+                "angularjs.png",
+                "ionic.png",
+            ]
+        },
+        {
+            groupName: "Back-end Skills",
+            groupSkills: [
+                "laravel.png",
+                "nodejs.png",
+            ]
+        },
+        
+    ],
 
     // Template Titles
     education_title: "Образование",
     experience_title: "Опыт",
+    skills_title: "Навыки",
+    portfolio_title: "Портфолио",
 }
 
 export const ar = {
@@ -185,31 +311,73 @@ export const ar = {
     experience: [
         {
             logo: "flegri.png",
-            desc: "Full-Stack Web developer at Flegrei, Moscow, Russia",
-            mission: "Mission : Development of websites, web applications and mobile applications.",
+            desc: "مبرمج واب بشركة فلقراي، موسكو، روسيا",
+            mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف",
             date: "2019 - 2021",
         },
         {
             logo: "kvantum.png",
-            desc: "Full-Stack Web developer at Kvantum, Moscow, Russia",
-            mission: "Mission : Development of websites, web applications and mobile applications. (Remote work)",
+            desc: "مبرمج واب بشركة كفانتوم، موسكو، روسيا",
+            mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف",
             date: "2019 - 2021",
         },
         {
             logo: "ksar.png",
-            desc: "IT Manager at LTI El Ksar Hotel, Sousse, Tunisia.",
-            mission: "Mission : Management and maintenance of computers equipments, local networks, wifi networks, telephony, surveillance cameras, ERP system and audiovisual Manager.",
+            desc: "مدير نظام المعلوماتيات بنزل القصر، سوسة، تونس",
+            mission: "المهمة: إدارة وصيانة أجهزة الكمبيوتر والشبكات المحلية وشبكات الواي فاي والهواتف وكاميرات المراقبة ونظام تخطيط موارد المؤسسات ومدير الصوتيات والمرئيات.",
             date: "2013 - 2018",
         },
         {
             logo: "steq.png",
-            desc: "Software Developer at Tunisian company of equipments, Tunis, Tunisia.",
-            mission: "Mission : Development of ERP Software in FoxPro.",
+            desc: "مبرمج بالشركة التونسية للمعدات، تونس، تونس",
+            mission: "المهمة: برمجة و تتطوير النظام الخاص بالشركة",
             date: "2011 - 2012",
         },
+    ],
+    skills: [
+        {
+            groupName: "Base Skills",
+            groupSkills: [
+                "html.png",
+                "css.png",
+                "js.png",
+                "php.png",
+                "mysql.png",
+            ]
+        },
+        {
+            groupName: "Css Skills",
+            groupSkills: [
+                "sass.png",
+                "tailwindcss.png",
+                "alpinejs.png",
+                "jquery.png",
+                "bootstrap.png",
+            ]
+        },
+        {
+            groupName: "Front-end Skills",
+            groupSkills: [
+                "vuejs.png",
+                "reactjs.png",
+                "reactnative.png",
+                "angularjs.png",
+                "ionic.png",
+            ]
+        },
+        {
+            groupName: "Back-end Skills",
+            groupSkills: [
+                "laravel.png",
+                "nodejs.png",
+            ]
+        },
+        
     ],
 
     // Template Titles
     education_title: "الشهادات",
     experience_title: "الخبرات",
+    skills_title: "المهارات",
+    portfolio_title: "الانجازات",
 }

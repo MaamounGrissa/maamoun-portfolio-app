@@ -1,15 +1,15 @@
 <template>
     <div class="education">
-        <div class="title">
+        <div :class="data.lang === 'ar' ? 'title reverse' : 'title' ">
             <VueFeather type="book-open" stroke="darkorange" size="35" />
             <h3 v-text="data.education_title" :class="data.lang === 'ar' ? 'rtl' : '' " />
         </div>
-        <div class="item" v-for="(item, index) in data.education" :key="index">
+        <div  v-for="(item, index) in data.education" :key="index" :class="data.lang === 'ar' ? 'item reverse' : 'item' " >
             <img :src="require('./../../assets/' + item.logo)" alt="Logo">
             <div>
-                <h4 v-text="item.certificate" />
-                <h5 v-text="item.institute" />
-                <i v-text="item.date" />
+                <h4 v-text="item.certificate" :class="data.lang === 'ar' ? 'rtl' : '' " />
+                <h5 v-text="item.institute" :class="data.lang === 'ar' ? 'rtl' : '' " />
+                <p v-text="item.date" :class="data.lang === 'ar' ? 'rtl' : '' " />
             </div>
         </div>
     </div>
@@ -33,6 +33,10 @@
         direction: rtl;
     }
 
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
     .education {
         padding: 0 20px;
         width: 40%;
@@ -42,10 +46,11 @@
         display: flex;
         align-items: center;
         margin-bottom: 30px;
+        margin-top: 20px;
     }
 
     h3 {
-        margin-left: 15px;
+        margin: 0 15px;
         font-size: 1.8rem;
         color:darkorange
     }
@@ -60,7 +65,8 @@
         color: #9c9c9c;
     }
 
-    i {
+    p {
+        font-style: italic;
         font-size: 14px;
         color: #887b7b;
     }
@@ -69,7 +75,7 @@
     img {
         width: 50px;
         height: 50px;
-        margin-right: 15px;
+        margin: 0 10px;
     }
 
     .item {
