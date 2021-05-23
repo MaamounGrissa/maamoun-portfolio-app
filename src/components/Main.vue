@@ -1,7 +1,7 @@
 <template>
   <div class="main-content">
     <Intro :data="data" />
-    <div class="exp-container">
+    <div :class="data.lang === 'ar' ? 'exp-container reverse' : 'exp-container'">
       <Education :data="data" />
       <Experience :data="data" />
     </div>
@@ -37,6 +37,14 @@ export default {
 
 
 <style scoped>
+  .rtl {
+        direction: rtl;
+  }
+
+  .reverse {
+      flex-direction: row-reverse;
+  } 
+  
   .main-content {
       padding: 0;
   }

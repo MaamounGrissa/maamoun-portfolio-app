@@ -4,9 +4,14 @@
             <VueFeather type="codesandbox" stroke="darkorange" size="35" />
             <h3 v-text="data.portfolio_title" :class="data.lang === 'ar' ? 'rtl' : '' " />
         </div>
-        <div class="skills-group" v-for="(group, index) in data.skills" :key="index">
-            <div v-for="(skill, i) in group.groupSkills" :key="i">
-                <img :src="require('./../../assets/' + skill)" alt="Skill">
+        <div class="projects">
+            <div class="project" v-for="(project, index) in data.portfolio" :key="index">
+                <h4 v-text="project.name" />
+                <img :src="require('./../../assets/portfolio/' + project.photo)" alt="Project">
+                <div class="actions">
+                    <a class="url" :href="project.code"><VueFeather type="github" stroke="white" size="20" /><span>Code</span></a>
+                    <a class="url" :href="project.url"><VueFeather type="link" stroke="white" size="20" /><span>Url</span></a>
+                </div>
             </div>
         </div>
     </div>
@@ -46,20 +51,68 @@
         color:darkorange
     }
 
-    .skills-group {
+    h4 {
+        text-align: center;
+        color: #fff;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .projects {
+        width: 100%;
         display: flex;
         align-items: center;
-        margin-bottom: 15px;
-        overflow-x: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        width: 30%;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        background-color: rgba(255,255,255,0.1);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     }
 
     img {
-        width: 50px;
-        margin-right: 5px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .actions {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    a.url {
+        display: flex;
+        align-items: center;
+        padding: 5px 5px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        width: 40%;
+    }
+
+    .url>span {
+        margin-left: 8px;
     }
 
     @media(max-width: 767px) {
-    
+        .project {
+            width: 100%;
+        }
+
+        a.url span{
+            margin-left: 5px;
+            font-style: 15px;
+        }
     }
 
 </style>

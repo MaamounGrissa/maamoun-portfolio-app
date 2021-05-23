@@ -54,13 +54,17 @@
     .skills-group {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         margin-bottom: 15px;
         overflow-x: auto;
     }
 
+    .skills-group>div {
+        width: 17%;
+    }
+
     img {
-        width: 50px;
-        margin-right: 5px;
+        width: 100%;
     }
 
     @media(max-width: 767px) {

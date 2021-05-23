@@ -30,7 +30,7 @@
 
 <style scoped>
 
-.rtl {
+    .rtl {
         direction: rtl;
     }
 

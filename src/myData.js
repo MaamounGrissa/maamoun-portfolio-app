@@ -86,6 +86,39 @@ export const en = {
         },
         
     ],
+    portfolio: [
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Volkswagen Almaty",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Dali Market",
+            photo: "dalimarket.png",
+            code: "https://github.com/MaamounGrissa/dalimarket",
+            url: "https://dalimarket.tn/",
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+    ],
+
 
     // Template Titles
     education_title: "Education",
