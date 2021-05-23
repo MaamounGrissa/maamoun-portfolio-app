@@ -82,6 +82,9 @@ export const en = {
             groupSkills: [
                 "laravel.png",
                 "nodejs.png",
+                "wordpress.png",
+                "opencart.png",
+                "joomla.png",
             ]
         },
         
@@ -211,9 +214,44 @@ export const fr = {
             groupSkills: [
                 "laravel.png",
                 "nodejs.png",
+                "wordpress.png",
+                "opencart.png",
+                "joomla.png",
             ]
         },
         
+    ],
+    portfolio: [
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Volkswagen Almaty",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Dali Market",
+            photo: "dalimarket.png",
+            code: "https://github.com/MaamounGrissa/dalimarket",
+            url: "https://dalimarket.tn/",
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
     ],
 
     // Template Titles
@@ -307,9 +345,44 @@ export const ru = {
             groupSkills: [
                 "laravel.png",
                 "nodejs.png",
+                "wordpress.png",
+                "opencart.png",
+                "joomla.png",
             ]
         },
         
+    ],
+    portfolio: [
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Volkswagen Almaty",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Dali Market",
+            photo: "dalimarket.png",
+            code: "https://github.com/MaamounGrissa/dalimarket",
+            url: "https://dalimarket.tn/",
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
     ],
 
     // Template Titles
@@ -403,9 +476,44 @@ export const ar = {
             groupSkills: [
                 "laravel.png",
                 "nodejs.png",
+                "wordpress.png",
+                "opencart.png",
+                "joomla.png",
             ]
         },
         
+    ],
+    portfolio: [
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Volkswagen Almaty",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Dali Market",
+            photo: "dalimarket.png",
+            code: "https://github.com/MaamounGrissa/dalimarket",
+            url: "https://dalimarket.tn/",
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
     ],
 
     // Template Titles
