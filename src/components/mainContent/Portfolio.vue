@@ -9,8 +9,8 @@
                 <h4 v-text="project.name" />
                 <img :src="require('./../../assets/portfolio/' + project.photo)" alt="Project">
                 <div class="actions">
-                    <a class="url" :href="project.code"><VueFeather type="github" stroke="white" size="20" /><span>Code</span></a>
-                    <a class="url" :href="project.url"><VueFeather type="link" stroke="white" size="20" /><span>Url</span></a>
+                    <a class="url" target="_BLANK" :href="project.code"><VueFeather type="github" stroke="white" size="20" /><span>Code</span></a>
+                    <a class="url" target="_BLANK" :href="project.url"><VueFeather type="link" stroke="white" size="20" /><span>Url</span></a>
                 </div>
             </div>
         </div>
@@ -98,6 +98,11 @@
         color: white;
         text-decoration: none;
         width: 40%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    a.url:hover {
+        background-color: #1f203a;
     }
 
     .url>span {

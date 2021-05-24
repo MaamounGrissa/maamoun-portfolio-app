@@ -120,6 +120,12 @@ export const en = {
             code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
             url: "https://vw.autodomkst.kz/",
         },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
     ],
 
 
@@ -239,6 +245,12 @@ export const fr = {
             photo: "dalimarket.png",
             code: "https://github.com/MaamounGrissa/dalimarket",
             url: "https://dalimarket.tn/",
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
         },
         {
             name: "Volkswagen Costanai",
@@ -383,6 +395,12 @@ export const ru = {
             code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
             url: "https://vw.autodomkst.kz/",
         },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
+        },
     ],
 
     // Template Titles
@@ -501,6 +519,12 @@ export const ar = {
             photo: "dalimarket.png",
             code: "https://github.com/MaamounGrissa/dalimarket",
             url: "https://dalimarket.tn/",
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://vw.autodomkst.kz/",
         },
         {
             name: "Volkswagen Costanai",
