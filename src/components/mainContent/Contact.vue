@@ -23,6 +23,10 @@
                 <img src="./../../assets/gmail.png">
                 <span>grissa.maamoun@gmail.com</span>
             </a>
+            <a class="item" href="https://www.linkedin.com/in/maamoun-grissa/" target="_BLANK">
+                <img src="./../../assets/linkedin.png">
+                <span>maamoun-grissa</span>
+            </a>
             <a class="item" href="https://www.facebook.com/maamoung/" target="_BLANK">
                 <img src="./../../assets/facebook.png">
                 <span>maamoung</span>
