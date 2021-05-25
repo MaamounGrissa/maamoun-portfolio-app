@@ -1,5 +1,5 @@
 <template>
-    <div class="intro">
+    <div id="intro" class="intro">
         <div>
             <img src="./../../assets/Profile.jpg" alt="Profile Photo">
         </div>
@@ -38,16 +38,18 @@
     h1 {
         font-size: 2.5rem;
         margin-bottom: 5px;
+        color: #1f203a;
     }
 
     h2 {
         font-size: 2rem;
         font-weight: 400;
         margin-top: 10px;
+        color: #1f203a;
     }
 
     p {
-        color: #1f203a;
+        color: #333;
         font-size: 1.1rem;
         line-height: 1.6;
         height: 260px;

@@ -1,6 +1,8 @@
 <template>
   <div class="myContainer">
-    <Header @Selected="selectedLang" @MenuOpen="menuTrigger" />
+    <div class="header">
+      <Header @Selected="selectedLang" @MenuOpen="menuTrigger" />
+    </div>
     <transition name="fade">
       <Menu v-show="menuStatus" @MenuClose="menuTrigger" />
     </transition>
@@ -63,6 +65,15 @@ export default {
   .myContainer {
     width: 100%;
     margin: 0 auto;
+    padding-top: 60px;
+  }
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
   .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;

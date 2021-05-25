@@ -11,6 +11,9 @@
     <div class="portfolio-container">
       <Portfolio :data="data" />
     </div>
+    <div class="contact-container">
+      <Contact :data="data" />
+    </div>
   </div>
 </template>
 
@@ -20,6 +23,7 @@ import Education from './mainContent/Education.vue';
 import Experience from './mainContent/Experience.vue';
 import Skills from './mainContent/Skills.vue';
 import Portfolio from './mainContent/Portfolio.vue';
+import Contact from './mainContent/Contact.vue';
 
 export default {
   name: 'Main',
@@ -28,7 +32,8 @@ export default {
       Education,
       Experience,
       Skills,
-      Portfolio
+      Portfolio,
+      Contact
   },
   props: ['data'],
   
@@ -44,7 +49,7 @@ export default {
   .reverse {
       flex-direction: row-reverse;
   } 
-  
+
   .main-content {
       padding: 0;
   }

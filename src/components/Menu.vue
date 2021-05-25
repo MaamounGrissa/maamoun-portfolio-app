@@ -4,10 +4,12 @@
           <button @click.prevent="menuTrigger">X</button>
           <nav>
               <ul>
-                  <li>About</li>
-                  <li>Education</li>
-                  <li>Experiences</li>
-                  <li>Portfolio</li>
+                  <li><a href="#intro">Intro</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#experiences">Experiences</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact Me</a></li>
               </ul>
           </nav>
       </div>
@@ -40,6 +42,7 @@ export default {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 
 .nav-container {
@@ -47,6 +50,7 @@ export default {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     position: relative;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 button {
@@ -81,6 +85,11 @@ ul {
 li {
     padding: 8px 0;
     font-size: 22px;
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
 }
 
 @media(max-width: 767px) {

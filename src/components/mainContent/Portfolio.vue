@@ -1,5 +1,5 @@
 <template>
-    <div class="portfolio">
+    <div id="portfolio" class="portfolio">
         <div class="title">
             <VueFeather type="codesandbox" stroke="darkorange" size="35" />
             <h3 v-text="data.portfolio_title" :class="data.lang === 'ar' ? 'rtl' : '' " />
@@ -9,7 +9,7 @@
                 <h4 v-text="project.name" />
                 <img :src="require('./../../assets/portfolio/' + project.photo)" alt="Project">
                 <div class="actions">
-                    <a class="url" target="_BLANK" :href="project.code"><VueFeather type="github" stroke="white" size="20" /><span>Code</span></a>
+                    <a :class="project.code === '' ? 'url disable' : 'url'" target="_BLANK" :href="project.code"><VueFeather type="github" stroke="white" size="20" /><span>Code</span></a>
                     <a class="url" target="_BLANK" :href="project.url"><VueFeather type="link" stroke="white" size="20" /><span>Url</span></a>
                 </div>
             </div>
@@ -95,6 +95,7 @@
         border-radius: 10px;
         text-align: center;
         justify-content: center;
+        background-color: #1f203a;
         color: white;
         text-decoration: none;
         width: 40%;
@@ -107,6 +108,10 @@
 
     .url>span {
         margin-left: 8px;
+    }
+
+    .url.disable {
+        background-color: transparent;
     }
 
     @media(max-width: 767px) {

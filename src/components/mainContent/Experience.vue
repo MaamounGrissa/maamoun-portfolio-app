@@ -1,5 +1,5 @@
 <template>
-    <div class="experience">
+    <div id="experience" class="experience">
         <div :class="data.lang === 'ar' ? 'title reverse' : 'title' ">
             <VueFeather type="briefcase" stroke="darkorange" size="35" />
             <h3 v-text="data.experience_title" :class="data.lang === 'ar' ? 'rtl' : '' " />
