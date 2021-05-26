@@ -1,6 +1,6 @@
 <template>
     <footer>
-        This is Footer
+       Maàmoun Grissa © 2020 | This is a VueJs App
     </footer>
 </template>
 
@@ -14,6 +14,8 @@
 <style scoped>
     footer {
         padding: 10px 20px;
-        background: rgb(165, 82, 26);
+        background: #1f203a;
+        text-align: center;
+        color: white;
     }
 </style>

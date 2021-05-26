@@ -1,39 +1,40 @@
 <template>
     <div id="contact" class="contact">
         <div>
-            <h5>Send me message !</h5>
+            <h5 v-text="data.contact_heading" />
             <form>
-                <input type="text" placeholder="Votre Nom" v-model="mail.name">
-                <input type="tel" placeholder="Votre Telephone" v-model="mail.phone">
-                <textarea rows="10" placeholder="Votre message" v-model="mail.message">
+                <input type="text" placeholder="Name" v-model="mail.name">
+                <input type="tel" placeholder="E-mail" v-model="mail.email">
+                <textarea rows="8" placeholder="Message" v-model="mail.message">
 
                 </textarea>
+                <p id="feedback" v-text="feedback"></p>
                 <button @click.prevent="sendEmail">
-                    Envoyer
+                    {{ data.send_btn }}
                 </button>
-                <div id="feedback" v-text="feedback"></div>
+                
             </form>
         </div>
         <div>
-            <a class="item" href="tel:+21650870256">
+            <a class="item" :href="'tel:' + data.phone">
                 <img src="./../../assets/phone.png">
-                <span>+216 50 870 256</span>
+                <span v-text="data.phone" />
             </a>
-            <a class="item" href="mailto:grissa.maamoun@gmail.com">
+            <a class="item" :href="'mailto:' + data.email">
                 <img src="./../../assets/gmail.png">
-                <span>grissa.maamoun@gmail.com</span>
+                <span v-text="data.email" />
             </a>
-            <a class="item" href="https://www.linkedin.com/in/maamoun-grissa/" target="_BLANK">
+            <a class="item" :href="'https://www.linkedin.com/in/' + data.linkedin + '/'" target="_BLANK">
                 <img src="./../../assets/linkedin.png">
-                <span>maamoun-grissa</span>
+                <span v-text="data.linkedin" />
             </a>
-            <a class="item" href="https://www.facebook.com/maamoung/" target="_BLANK">
+            <a class="item" :href="'https://www.facebook.com/' + data.facebook + '/'" target="_BLANK">
                 <img src="./../../assets/facebook.png">
-                <span>maamoung</span>
+                <span v-text="data.facebook" />
             </a>
-            <a class="item" href="https://www.instagram.com/gmaamoun/" target="_BLANK">
+            <a class="item" :href="'https://www.instagram.com/' + data.instagram + '/'" target="_BLANK">
                 <img src="./../../assets/instagram.png">
-                <span>gmaamoun</span>
+                <span v-text="data.instagram" />
             </a>
         </div>
     </div>
@@ -62,18 +63,23 @@ import emailjs from 'emailjs-com';
                 const serviceID = 'service_dyozx05';
                 const templateID = 'template_pwyxb4s';
                 const userID = 'user_aew1XU7c2JP3topXNbU9p';
+                var myFeedback =document.getElementById('feedback');
 
                 try {
                     emailjs.send(serviceID, templateID, templateParams, userID);
-                    this.feedback = 'Votre commande est effectuée !';
-
+                    this.feedback = 'Message sent successfully !';
+                    myFeedback.textContent = this.feedback;
+                    setTimeout(() => {
+                        myFeedback.style.display = "block";
+                    }, 3000);
 
                 } catch(error) {
                     console.log({error})
-                    this.feedback = "Echeck ! Essayez ultiréurenment";
-                    document.getElementById('feedback').style.color = "#F00";
+                    this.feedback = "Error ! Try later please, Thanks";
+                    myFeedback.textContent = this.feedback;
+                    myFeedback.style.color = "#F00";
                     setTimeout(() => {
-                        this.$emit('closeModal')
+                        myFeedback.style.display = "block";
                     }, 3000);
 
                 }
@@ -109,19 +115,6 @@ import emailjs from 'emailjs-com';
         color: #1f203a;
     }
 
-    h1 {
-        font-size: 2.5rem;
-        margin-bottom: 5px;
-        color: #1f203a;
-    }
-
-    h2 {
-        font-size: 2rem;
-        font-weight: 400;
-        margin-top: 10px;
-        color: #1f203a;
-    }
-
     h5 {
         font-size: 2rem;
         font-weight: 400;
@@ -131,22 +124,11 @@ import emailjs from 'emailjs-com';
         text-align: center;
     }
 
-    p {
-        color: #333;
-        font-size: 1.1rem;
-        line-height: 1.6;
-        height: 260px;
-    }
-
     img {
         margin-right: 20px;
         width: 60px;
         height: 60px;
         transition: all 0.4s ease-in-out;
-    }
-
-    img:hover {
-        filter: none
     }
 
     form {
@@ -187,10 +169,10 @@ import emailjs from 'emailjs-com';
         color: #1f203a;
     }
 
-    .feedback {
+    #feedback {
         display: none;
         float: left;
-        margin-top: 10px;
+        margin-top: 16px;
         font-size: 14px;
         color: #080;
         font-style: italic;
@@ -219,25 +201,11 @@ import emailjs from 'emailjs-com';
             height: 50px;
         }
 
-        h1 {
-            text-align: center;
-        }
-
-        h2 {
-            text-align: center;
-        }
-
         h5 {
             margin-top: 0;
             margin-bottom: 40px;
         }
 
-        p {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            text-align: center;
-            height: auto;
-        }
         form {
             width: 100%;
             margin: 0;

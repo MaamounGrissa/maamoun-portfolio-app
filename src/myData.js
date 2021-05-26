@@ -6,6 +6,9 @@ export const en = {
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
     intro: "Full-stack Web Application Developer and Software Developer, currently living in Sousse, Tunisia. My primary focus and inspiration for my studies is Web Development. I am constantly experimenting with new technologies and techniques. I am very passionate about Web Development, and strive to better myself as a developer, and the development community as a whole.",
+    linkedin: "maamoun-grissa",
+    facebook: "maamoung",
+    instagram: "gmaamoun",
     education: [
         {
             logo: "iset.jpg",
@@ -152,6 +155,8 @@ export const en = {
     experience_title: "Experience",
     skills_title: "Skills",
     portfolio_title: "Portfolio",
+    contact_heading: "Send me message !",
+    send_btn: "Send",
 }
 
 export const fr = {
@@ -162,6 +167,9 @@ export const fr = {
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
     intro: "Développeur d'applications Web et développeur de logiciels full-stack, vivant actuellement à Sousse, Tunisie. Mon objectif principal et mon inspiration pour mes études est le développement Web. J'expérimente constamment de nouvelles technologies et techniques. Je suis très passionné par le développement Web et je m'efforce de m'améliorer en tant que développeur et de la communauté de développement dans son ensemble.",
+    linkedin: "maamoun-grissa",
+    facebook: "maamoung",
+    instagram: "gmaamoun",
     education: [
         {
             logo: "iset.jpg",
@@ -247,40 +255,58 @@ export const fr = {
     ],
     portfolio: [
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
-        },
-        {
-            name: "Volkswagen Almaty",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
-        },
-        {
             name: "Dali Market",
             photo: "dalimarket.png",
             code: "https://github.com/MaamounGrissa/dalimarket",
             url: "https://dalimarket.tn/",
         },
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
+            name: "Pro Artl",
+            photo: "pro-artl.png",
+            code: "",
+            url: "https://pro-artl.ru/",
+        },
+        {
+            name: "Conformit VueJs App",
+            photo: "conformit-vuejs.png",
+            code: "https://github.com/MaamounGrissa/Conformit.git",
+            url: "https://conformit-vuejs.netlify.app/",
+        },
+        {
+            name: "Barrist",
+            photo: "barrist.png",
+            code: "",
+            url: "https://barrist.ru/",
         },
         {
             name: "Volkswagen Costanai",
             photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            code: "",
             url: "https://vw.autodomkst.kz/",
         },
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
+            name: "Volkswagen Almaty",
+            photo: "volkswagen-almaty.png",
+            code: "",
+            url: "https://volkswagen-almaty.kz/",
+        },
+        {
+            name: "Retail Comiten",
+            photo: "retail-comiten.png",
+            code: "",
+            url: "https://retail.comiten.ru/",
+        },
+        {
+            name: "Zavodskaya Plitka",
+            photo: "zavodskaya-plitka.png",
+            code: "",
+            url: "https://www.zavodskaya-plitka.ru/",
+        },
+        {
+            name: "Flegrei",
+            photo: "flegri.png",
+            code: "",
+            url: "https://www.flegri.com/",
         },
     ],
 
@@ -289,6 +315,8 @@ export const fr = {
     experience_title: "Expérience",
     skills_title: "Compétences",
     portfolio_title: "Portefeuille",
+    contact_heading: "Envoyez moi un message !",
+    send_btn: "Envoyer",
 }
 
 export const ru = {
@@ -299,6 +327,9 @@ export const ru = {
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
     intro: "Разработчик полного стека веб-приложений и разработчик программного обеспечения, в настоящее время проживает в Суссе, Тунис. Моя основная цель и вдохновение для моих исследований - это веб-разработка. Я постоянно экспериментирую с новыми технологиями и техниками. Я очень увлечен веб-разработкой и стремлюсь улучшить себя как разработчик и сообщество разработчиков в целом.",
+    linkedin: "maamoun-grissa",
+    facebook: "maamoung",
+    instagram: "gmaamoun",
     education: [
         {
             logo: "iset.jpg",
@@ -384,40 +415,58 @@ export const ru = {
     ],
     portfolio: [
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
-        },
-        {
-            name: "Volkswagen Almaty",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
-        },
-        {
             name: "Dali Market",
             photo: "dalimarket.png",
             code: "https://github.com/MaamounGrissa/dalimarket",
             url: "https://dalimarket.tn/",
         },
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
+            name: "Pro Artl",
+            photo: "pro-artl.png",
+            code: "",
+            url: "https://pro-artl.ru/",
+        },
+        {
+            name: "Conformit VueJs App",
+            photo: "conformit-vuejs.png",
+            code: "https://github.com/MaamounGrissa/Conformit.git",
+            url: "https://conformit-vuejs.netlify.app/",
+        },
+        {
+            name: "Barrist",
+            photo: "barrist.png",
+            code: "",
+            url: "https://barrist.ru/",
         },
         {
             name: "Volkswagen Costanai",
             photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            code: "",
             url: "https://vw.autodomkst.kz/",
         },
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
+            name: "Volkswagen Almaty",
+            photo: "volkswagen-almaty.png",
+            code: "",
+            url: "https://volkswagen-almaty.kz/",
+        },
+        {
+            name: "Retail Comiten",
+            photo: "retail-comiten.png",
+            code: "",
+            url: "https://retail.comiten.ru/",
+        },
+        {
+            name: "Zavodskaya Plitka",
+            photo: "zavodskaya-plitka.png",
+            code: "",
+            url: "https://www.zavodskaya-plitka.ru/",
+        },
+        {
+            name: "Flegrei",
+            photo: "flegri.png",
+            code: "",
+            url: "https://www.flegri.com/",
         },
     ],
 
@@ -426,6 +475,9 @@ export const ru = {
     experience_title: "Опыт",
     skills_title: "Навыки",
     portfolio_title: "Портфолио",
+    contact_heading: "Отправь мне сообщение !",
+    send_btn: "Отправить",
+    
 }
 
 export const ar = {
@@ -436,6 +488,9 @@ export const ar = {
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
     intro: "مطور تطبيقات ويب ومطور برامج متكامل ، أعيش حاليًا في سوسة ، تونس. تركيزي الأساسي وإلهامي لدراستي هو تطوير الويب. أنا أجرب باستمرار التقنيات الجديدة. أنا متحمس جدًا لتطوير الويب ، وأسعى جاهداً لتحسين نفسي كمطور للواب و تطبيقات الهاتف.",
+    linkedin: "maamoun-grissa",
+    facebook: "maamoung",
+    instagram: "gmaamoun",
     education: [
         {
             logo: "iset.jpg",
@@ -521,40 +576,58 @@ export const ar = {
     ],
     portfolio: [
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
-        },
-        {
-            name: "Volkswagen Almaty",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
-        },
-        {
             name: "Dali Market",
             photo: "dalimarket.png",
             code: "https://github.com/MaamounGrissa/dalimarket",
             url: "https://dalimarket.tn/",
         },
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
+            name: "Pro Artl",
+            photo: "pro-artl.png",
+            code: "",
+            url: "https://pro-artl.ru/",
+        },
+        {
+            name: "Conformit VueJs App",
+            photo: "conformit-vuejs.png",
+            code: "https://github.com/MaamounGrissa/Conformit.git",
+            url: "https://conformit-vuejs.netlify.app/",
+        },
+        {
+            name: "Barrist",
+            photo: "barrist.png",
+            code: "",
+            url: "https://barrist.ru/",
         },
         {
             name: "Volkswagen Costanai",
             photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            code: "",
             url: "https://vw.autodomkst.kz/",
         },
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://vw.autodomkst.kz/",
+            name: "Volkswagen Almaty",
+            photo: "volkswagen-almaty.png",
+            code: "",
+            url: "https://volkswagen-almaty.kz/",
+        },
+        {
+            name: "Retail Comiten",
+            photo: "retail-comiten.png",
+            code: "",
+            url: "https://retail.comiten.ru/",
+        },
+        {
+            name: "Zavodskaya Plitka",
+            photo: "zavodskaya-plitka.png",
+            code: "",
+            url: "https://www.zavodskaya-plitka.ru/",
+        },
+        {
+            name: "Flegrei",
+            photo: "flegri.png",
+            code: "",
+            url: "https://www.flegri.com/",
         },
     ],
 
@@ -563,4 +636,6 @@ export const ar = {
     experience_title: "الخبرات",
     skills_title: "المهارات",
     portfolio_title: "الانجازات",
+    contact_heading: "أرسل لي رسالة",
+    send_btn: "أرسل"
 }
