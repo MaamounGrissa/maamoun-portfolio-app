@@ -3,9 +3,12 @@
         <div>
             <h5 v-text="data.contact_heading" />
             <form>
-                <input type="text" placeholder="Name" v-model="mail.name">
-                <input type="tel" placeholder="E-mail" v-model="mail.email">
-                <textarea rows="8" placeholder="Message" v-model="mail.message">
+                <input type="text" :placeholder="data.name_label" v-model="mail.name" required 
+                 :class="data.lang === 'ar' ? 'rtl' : '' " />
+                <input type="email" :placeholder="data.email_label" v-model="mail.email" required
+                 :class="data.lang === 'ar' ? 'rtl' : '' " />
+                <textarea rows="8" :placeholder="data.message_label" v-model="mail.message"
+                 :class="data.lang === 'ar' ? 'rtl' : '' " >
 
                 </textarea>
                 <p id="feedback" v-text="feedback"></p>
@@ -48,7 +51,6 @@ import emailjs from 'emailjs-com';
         props: ['data'],
         data() {
             return {
-                feedback: '',
                 mail: {}
             }
         },
@@ -56,32 +58,25 @@ import emailjs from 'emailjs-com';
             sendEmail() {
                 var templateParams = {
                         name: this.mail.name,
-                        phone: this.mail.phone + " ",
+                        email: this.mail.email + " ",
                         message: this.mail.message + " ",
                         
                 }
                 const serviceID = 'service_dyozx05';
                 const templateID = 'template_pwyxb4s';
                 const userID = 'user_aew1XU7c2JP3topXNbU9p';
-                var myFeedback =document.getElementById('feedback');
+                var feedback =document.getElementById('feedback');
 
                 try {
                     emailjs.send(serviceID, templateID, templateParams, userID);
-                    this.feedback = 'Message sent successfully !';
-                    myFeedback.textContent = this.feedback;
-                    setTimeout(() => {
-                        myFeedback.style.display = "block";
-                    }, 3000);
+                    feedback.textContent = this.data.feedback_message;
+                    feedback.style.display = "block";
 
                 } catch(error) {
                     console.log({error})
-                    this.feedback = "Error ! Try later please, Thanks";
-                    myFeedback.textContent = this.feedback;
-                    myFeedback.style.color = "#F00";
-                    setTimeout(() => {
-                        myFeedback.style.display = "block";
-                    }, 3000);
-
+                    feedback.textContent = this.data.error_message;
+                    feedback.style.color = "#F00";
+                    feedback.style.display = "block";
                 }
             },
         },
@@ -150,6 +145,7 @@ import emailjs from 'emailjs-com';
         border-radius: 10px;
         border: 1px solid #1f203a;
         font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     button {
@@ -172,7 +168,7 @@ import emailjs from 'emailjs-com';
     #feedback {
         display: none;
         float: left;
-        margin-top: 16px;
+        margin-top: 14px;
         font-size: 14px;
         color: #080;
         font-style: italic;

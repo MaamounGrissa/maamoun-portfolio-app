@@ -1,6 +1,6 @@
 <template>
     <div id="portfolio" class="portfolio">
-        <div class="title">
+        <div :class="data.lang === 'ar' ? 'title reverse' : 'title' ">
             <VueFeather type="codesandbox" stroke="darkorange" size="35" />
             <h3 v-text="data.portfolio_title" :class="data.lang === 'ar' ? 'rtl' : '' " />
         </div>
@@ -35,6 +35,10 @@
         direction: rtl;
     }
 
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
     .portfolio {
         padding: 2% 0;
     }
@@ -42,11 +46,12 @@
     .title {
         display: flex;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        margin-top: 10px;
     }
 
     h3 {
-        margin-left: 15px;
+        margin: 0 15px;
         font-size: 1.8rem;
         color:darkorange
     }

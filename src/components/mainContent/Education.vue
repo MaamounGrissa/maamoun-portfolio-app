@@ -45,8 +45,8 @@
     .title {
         display: flex;
         align-items: center;
-        margin-bottom: 30px;
-        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-top: 10px;
     }
 
     h3 {

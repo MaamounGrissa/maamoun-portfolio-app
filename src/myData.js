@@ -156,7 +156,12 @@ export const en = {
     skills_title: "Skills",
     portfolio_title: "Portfolio",
     contact_heading: "Send me message !",
+    name_label: "Name",
+    email_label: "E-mail",
+    message_label: "Message",
     send_btn: "Send",
+    feedback_message: "Message sent successfully !",
+    error_message: "Error ! Please try again later !",
 }
 
 export const fr = {
@@ -316,7 +321,12 @@ export const fr = {
     skills_title: "Compétences",
     portfolio_title: "Portefeuille",
     contact_heading: "Envoyez moi un message !",
+    name_label: "Nom",
+    email_label: "E-mail",
+    message_label: "Message",
     send_btn: "Envoyer",
+    feedback_message: "Message envoyé avec succès !",
+    error_message: "Erreur ! Veuillez réessayer plus tard !",
 }
 
 export const ru = {
@@ -476,7 +486,12 @@ export const ru = {
     skills_title: "Навыки",
     portfolio_title: "Портфолио",
     contact_heading: "Отправь мне сообщение !",
+    name_label: "Имя",
+    email_label: "Эл. адрес",
+    message_label: "Сообщение",
     send_btn: "Отправить",
+    feedback_message: "Сообщение успешно отправлено !",
+    error_message: "Ошибка ! Пожалуйста, повторите попытку позже !",
     
 }
 
@@ -637,5 +652,10 @@ export const ar = {
     skills_title: "المهارات",
     portfolio_title: "الانجازات",
     contact_heading: "أرسل لي رسالة",
-    send_btn: "أرسل"
+    name_label: "الاسم",
+    email_label: "البريد الالكتروني",
+    message_label: "الرسالة",
+    send_btn: "أرسل",
+    feedback_message: "تم ارسال الرسالة بنجاح",
+    error_message: "خطأ ! الرجاء إعادة المحاولة في وقت لاحق",
 }
