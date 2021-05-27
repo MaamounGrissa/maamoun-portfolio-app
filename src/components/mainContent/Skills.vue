@@ -60,7 +60,7 @@
     }
 
     .skills-group>div {
-        width: 17%;
+        width: 14%;
     }
 
     img {
@@ -68,7 +68,9 @@
     }
 
     @media(max-width: 767px) {
-    
+        .skills-group>div {
+            width: 16%;
+        }
     }
 
 </style>

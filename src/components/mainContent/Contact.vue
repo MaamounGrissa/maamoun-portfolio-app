@@ -19,23 +19,23 @@
             </form>
         </div>
         <div>
-            <a class="item" :href="'tel:' + data.phone">
+            <a :href="'tel:' + data.phone" :class="data.lang === 'ar' ? 'item reverse' : 'item' ">
                 <img src="./../../assets/phone.png">
                 <span v-text="data.phone" />
             </a>
-            <a class="item" :href="'mailto:' + data.email">
+            <a :href="'mailto:' + data.email" :class="data.lang === 'ar' ? 'item reverse' : 'item' ">
                 <img src="./../../assets/gmail.png">
                 <span v-text="data.email" />
             </a>
-            <a class="item" :href="'https://www.linkedin.com/in/' + data.linkedin + '/'" target="_BLANK">
+            <a :href="'https://www.linkedin.com/in/' + data.linkedin + '/'" target="_BLANK" :class="data.lang === 'ar' ? 'item reverse' : 'item' ">
                 <img src="./../../assets/linkedin.png">
                 <span v-text="data.linkedin" />
             </a>
-            <a class="item" :href="'https://www.facebook.com/' + data.facebook + '/'" target="_BLANK">
+            <a :href="'https://www.facebook.com/' + data.facebook + '/'" target="_BLANK" :class="data.lang === 'ar' ? 'item reverse' : 'item' ">
                 <img src="./../../assets/facebook.png">
                 <span v-text="data.facebook" />
             </a>
-            <a class="item" :href="'https://www.instagram.com/' + data.instagram + '/'" target="_BLANK">
+            <a :href="'https://www.instagram.com/' + data.instagram + '/'" target="_BLANK" :class="data.lang === 'ar' ? 'item reverse' : 'item' ">
                 <img src="./../../assets/instagram.png">
                 <span v-text="data.instagram" />
             </a>
@@ -89,6 +89,10 @@ import emailjs from 'emailjs-com';
         direction: rtl;
     }
 
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
     .contact {
         padding: 3% 5%;
         display: flex;
@@ -121,9 +125,15 @@ import emailjs from 'emailjs-com';
 
     img {
         margin-right: 20px;
+        margin-left: 0;
         width: 60px;
         height: 60px;
         transition: all 0.4s ease-in-out;
+    }
+
+    .reverse img {
+        margin-left: 20px;
+        margin-right: 0;
     }
 
     form {

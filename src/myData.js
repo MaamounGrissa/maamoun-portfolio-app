@@ -209,25 +209,25 @@ export const fr = {
         },
         {
             logo: "flegri.png",
-            desc: "Développeur web Full-Stack au sein de Flegrei, Moscou, Russie",
+            desc: "Développeur web Full-Stack chez Flegrei, Moscou, Russie",
             mission: "Mission : Développement du sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms. - Sites Web Catalogue & Portfolio Utilisant Wordpress Cms. - Application mobile utlisant Ionic-framework & Angular Js + Api utilisant Laravel 7.",
             date: "2019 - 2021",
         },
         {
             logo: "kvantum.png",
-            desc: "Développeur web Full-Stack au sein de Kvantum, Moscou, Russie ( à distance )",
+            desc: "Développeur web Full-Stack chez Kvantum, Moscou, Russie ( à distance )",
             mission: "Mission : Développement du sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms. - •	Sites Web Catalogue & Portfolio Utilisant Joomla Cms. - •	Application web Utilisant Laravel 7.",
             date: "2019 - 2021",
         },
         {
             logo: "ksar.png",
-            desc: "Administrateur de système au sein de l'Hôtel LTI El Ksar, Sousse, Tunisie.",
+            desc: "Administrateur de système chez l'Hôtel LTI El Ksar, Sousse, Tunisie.",
             mission: "Mission :  Gestion et maintenance de parc informatique, réseau local et wifi, téléphonie, caméras de surveillance, système ERP et 1er responsable audiovisuelles.",
             date: "2013 - 2018",
         },
         {
             logo: "steq.png",
-            desc: "Développeur logiciels au sein de société Tunisienne des équipements, Tunis, Tunisie.",
+            desc: "Développeur logiciels chez la société Tunisienne des équipements, Tunis, Tunisie.",
             mission: "Mission : Développement du système ERP de la société utilisant Foxpro.",
             date: "2011 - 2012",
         },
@@ -377,21 +377,27 @@ export const ru = {
     ],
     experience: [
         {
+            logo: "freelancer.png",
+            desc: "Веб-разработчик Full-Stack, Фрилансер, Интернет (Удаленный)",
+            mission: "Обязанности: Разработка веб-сайтов, веб-и мобильных приложений : - Платформы электронной коммерции с использованием opencart cms и Vue JS. - Каталог и портфолио веб-сайтов с Wordpress CMS и Vue JS. - Веб-и мобильное приложение с React JS и React Native + Api с Laravel 8 & Livewire 2 & Tailwindcss & Alpine.",
+            date: "2019 - 2021",
+        },
+        {
             logo: "flegri.png",
             desc: "Веб-разработчик Full-Stack, Флегрей, Москва, Россия",
-            mission: "Обязанности: Разработка сайтов, веб-приложений и мобильных приложений.",
+            mission: "Обязанности: Разработка веб-сайтов, веб-и мобильных приложений : - Платформы электронной коммерции с использованием opencart cms. - Каталог и портфолио веб-сайтов с Wordpress CMS. - Мобильное приложение с Ionic-framework и Angular Js + Api с Laravel 7.",
             date: "2019 - 2021",
         },
         {
             logo: "kvantum.png",
-            desc: "Веб-разработчик Full-Stack, Квантум, Москва, Россия",
-            mission: "Обязанности: Разработка сайтов, веб-приложений и мобильных приложений. (Remote work)",
+            desc: "Веб-разработчик Full-Stack, Квантум, Москва, Россия (Удаленный)",
+            mission: "Обязанности: Разработка веб-сайтов, веб-и мобильных приложений : - Каталог и портфолио веб-сайтов с Joomla CMS. - Веб приложение с Laravel 7.",
             date: "2019 - 2021",
         },
         {
             logo: "ksar.png",
             desc: "Системный администратор в отеле LTI El Ksar, Сусс, Тунис.",
-            mission: "Обязанности : управление и обслуживание IT оборудования, локальных сетей, Wi-Fi , телефония, камеры видеонаблюдения, система ERP и аудиовизуальный менеджер.",
+            mission: "Обязанности : Управление и техническое обслуживание компьютерного оборудования, локальных сетей, сетей Wi-Fi, телефонии, камер наблюдения, ERP-системы и аудиовизуального менеджера.",
             date: "2013 - 2018",
         },
         {
@@ -549,19 +555,19 @@ export const ar = {
         {
             logo: "freelancer.png",
             desc: "مبرمج واب حر، الانترنت (عن بعد)",
-            mission: "مهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف",
+            mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف : تطوير و برمجة مواقع للتجارة الالكترونية و المواقع والتطبيقات الخاصة بالأفراد و الشركات",
             date: "2019 - 2021",
         },
         {
             logo: "flegri.png",
             desc: "مبرمج واب بشركة فلقراي، موسكو، روسيا",
-            mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف",
+            mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف : تطوير و برمجة مواقع للتجارة الالكترونية و المواقع والتطبيقات الخاصة بالأفراد و الشركات",
             date: "2019 - 2021",
         },
         {
             logo: "kvantum.png",
             desc: "مبرمج واب بشركة كفانتوم، موسكو، روسيا (عن بعد)",
-            mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف",
+            mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف : تطوير و برمجة مواقع للتجارة الالكترونية و المواقع والتطبيقات الخاصة بالأفراد و الشركات",
             date: "2019 - 2021",
         },
         {
