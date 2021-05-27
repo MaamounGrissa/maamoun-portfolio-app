@@ -7,13 +7,21 @@
             <h1 v-text="data.name" :class="data.lang === 'ar' ? 'rtl' : '' " />
             <h2 v-text="data.job" :class="data.lang === 'ar' ? 'rtl' : '' " />
             <p v-text="data.intro" :class="data.lang === 'ar' ? 'rtl' : '' " />
+            <a :href="'./../../assets/resumes/' + data.cv" target="_BLANK" :class="data.lang === 'ar' ? 'reverse' : '' " >
+                <VueFeather type="download" stroke="darkorange" size="25" />
+                <span v-text="data.download_link" />
+            </a>
         </div>
     </div>
 </template>
 
 <script>
+import VueFeather from 'vue-feather';
     export default {
         name: 'Intro',
+        components: {
+            VueFeather
+        },
         props: ['data']
     }
 </script>
@@ -22,6 +30,10 @@
 <style scoped>
     .rtl {
         direction: rtl;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
     }
 
     .intro {
@@ -52,7 +64,7 @@
         color: #333;
         font-size: 1.1rem;
         line-height: 1.6;
-        height: 260px;
+        margin-bottom: 40px;
     }
 
     img {
@@ -68,6 +80,35 @@
 
     img:hover {
         filter: none
+    }
+
+    a {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkorange;
+        border: 1px solid darkorange;
+        border-radius: 20px;
+        text-decoration: none;
+        padding: 5px 20px;
+        margin: 0 auto;
+        transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+        background-color: #1f203a;
+        border-color: #1f203a;
+    }
+
+    a>span {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .reverse>span {
+        margin-right: 10px;
+        margin-left: 0;
     }
 
     @media(max-width: 767px) {

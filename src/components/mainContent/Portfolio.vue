@@ -9,8 +9,14 @@
                 <h4 v-text="project.name" />
                 <img :src="require('./../../assets/portfolio/' + project.photo)" alt="Project">
                 <div class="actions">
-                    <a :class="project.code === '' ? 'url disable' : 'url'" target="_BLANK" :href="project.code"><VueFeather type="github" stroke="white" size="20" /><span>Code</span></a>
-                    <a class="url" target="_BLANK" :href="project.url"><VueFeather type="link" stroke="white" size="20" /><span>Url</span></a>
+                    <a :class="project.code === '' ? 'url disable' : 'url'" target="_BLANK" :href="project.code">
+                        <VueFeather type="github" stroke="white" size="20" />
+                        <span v-text="data.code_btn" />
+                    </a>
+                    <a class="url" target="_BLANK" :href="project.url">
+                        <VueFeather type="link" stroke="white" size="20" />
+                        <span v-text="data.url_btn" />
+                    </a>
                 </div>
             </div>
         </div>

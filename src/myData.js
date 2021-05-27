@@ -5,10 +5,11 @@ export const en = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Full-stack Web Application Developer and Software Developer, currently living in Sousse, Tunisia. My primary focus and inspiration for my studies is Web Development. I am constantly experimenting with new technologies and techniques. I am very passionate about Web Development, and strive to better myself as a developer, and the development community as a whole.",
+    intro: "Innovative Web Developer with 3 years of experience in website design and coding. Demonstrated talent for front and back-end web development to optimize online presence. Seasoned expert in languages such as HTML, CSS, JavaScript, php, mySql.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
+    cv: "Maamoun-Grissa-Resume-june21-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -25,15 +26,21 @@ export const en = {
     ],
     experience: [
         {
+            logo: "freelancer.png",
+            desc: "Web developer at Freelancer, Internet ( Remote )",
+            mission: "Mission : Development of websites, web and mobile applications : - E-commerce plateforms using opencart cms & VueJS. - Catalog & Portfolio websites using Wordpress cms & VueJs. - Web & Mobile app using React JS & React Native + Api using Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
+            date: "2019 - 2021",
+        },
+        {
             logo: "flegri.png",
             desc: "Full-Stack Web developer at Flegrei, Moscow, Russia",
-            mission: "Mission : Development of websites, web applications and mobile applications.",
+            mission: "Mission : Development of websites, web and mobile applications : - E-commerce plateforms using opencart cms. - Catalog websites using Wordpress cms. - Mobile app using Ionic-framework & Angular Js + Api : Laravel 7.",
             date: "2019 - 2021",
         },
         {
             logo: "kvantum.png",
-            desc: "Full-Stack Web developer at Kvantum, Moscow, Russia",
-            mission: "Mission : Development of websites, web applications and mobile applications. (Remote work)",
+            desc: "Full-Stack Web developer at Kvantum, Moscow, Russia ( Remote )",
+            mission: "Mission : Development of websites, web and mobile applications. - Catalog websites using joomla cms. - Development of web application using Laravel 7.",
             date: "2019 - 2021",
         },
         {
@@ -45,7 +52,7 @@ export const en = {
         {
             logo: "steq.png",
             desc: "Software developer at Tunisian company of equipments, Tunis, Tunisia.",
-            mission: "Mission : Development of ERP Software in FoxPro.",
+            mission: "Mission : Development of ERP Software of the company using FoxPro.",
             date: "2011 - 2012",
         },
     ],
@@ -151,10 +158,13 @@ export const en = {
 
 
     // Template Titles
+    download_link: "Download Resume as PDF",
     education_title: "Education",
     experience_title: "Experience",
     skills_title: "Skills",
     portfolio_title: "Portfolio",
+    url_btn: "Link",
+    code_btn: "Code",
     contact_heading: "Send me message !",
     name_label: "Name",
     email_label: "E-mail",
@@ -171,10 +181,11 @@ export const fr = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Développeur d'applications Web et développeur de logiciels full-stack, vivant actuellement à Sousse, Tunisie. Mon objectif principal et mon inspiration pour mes études est le développement Web. J'expérimente constamment de nouvelles technologies et techniques. Je suis très passionné par le développement Web et je m'efforce de m'améliorer en tant que développeur et de la communauté de développement dans son ensemble.",
+    intro: "Développeur Web innovant avec 3 ans d'expérience dans la conception et le codage de sites Web. Talent démontré pour le développement Web front-end et back-end afin d'optimiser la présence en ligne. Expert chevronné dans les langages tels que HTML, CSS, JavaScript, php, mySql.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
+    cv: "Maamoun-Grissa-Resume-june21-FR.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -191,27 +202,33 @@ export const fr = {
     ],
     experience: [
         {
+            logo: "freelancer.png",
+            desc: "Développeur web Full-Stack Freelancer, Internet ( à distance )",
+            mission: "Mission : Développement du sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms & VueJS. - Sites Web Catalogue & Portfolio Utilisant Wordpress Cms & VueJS. - Application web et mobile utilisant React JS & React Native + Api utilisant Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
+            date: "2021 - Présent",
+        },
+        {
             logo: "flegri.png",
-            desc: "Développeur web Full-Stack au sein de Flegrei, Moscow, Russia",
-            mission: "Mission : Développement su sites web, applications web et applications mobile.",
+            desc: "Développeur web Full-Stack au sein de Flegrei, Moscou, Russie",
+            mission: "Mission : Développement du sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms. - Sites Web Catalogue & Portfolio Utilisant Wordpress Cms. - Application mobile utlisant Ionic-framework & Angular Js + Api utilisant Laravel 7.",
             date: "2019 - 2021",
         },
         {
             logo: "kvantum.png",
-            desc: "Développeur web Full-Stack au sein de Kvantum, Moscow, Russia",
-            mission: "Mission : Développement su sites web, applications web et applications mobile. (Travail à distance)",
+            desc: "Développeur web Full-Stack au sein de Kvantum, Moscou, Russie ( à distance )",
+            mission: "Mission : Développement du sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms. - •	Sites Web Catalogue & Portfolio Utilisant Joomla Cms. - •	Application web Utilisant Laravel 7.",
             date: "2019 - 2021",
         },
         {
             logo: "ksar.png",
-            desc: "Administrateur de système au sein de l'Hôtel LTI El Ksar, Sousse, Tunisia.",
-            mission: "Mission :  Gestion et maintenance de parc informatique, téléphonie, caméras de surveillance, système ERP et 1er responsable audiovisuelles.",
+            desc: "Administrateur de système au sein de l'Hôtel LTI El Ksar, Sousse, Tunisie.",
+            mission: "Mission :  Gestion et maintenance de parc informatique, réseau local et wifi, téléphonie, caméras de surveillance, système ERP et 1er responsable audiovisuelles.",
             date: "2013 - 2018",
         },
         {
             logo: "steq.png",
-            desc: "Software Developer at Tunisian company of equipments, Tunis, Tunisia.",
-            mission: "Mission : Développement du sytème ERP avec FoxPro.",
+            desc: "Développeur logiciels au sein de société Tunisienne des équipements, Tunis, Tunisie.",
+            mission: "Mission : Développement du système ERP de la société utilisant Foxpro.",
             date: "2011 - 2012",
         },
     ],
@@ -316,10 +333,13 @@ export const fr = {
     ],
 
     // Template Titles
+    download_link: "Télécharger le CV en PDF",
     education_title: "Éducation",
     experience_title: "Expérience",
     skills_title: "Compétences",
     portfolio_title: "Portefeuille",
+    url_btn: "Lien",
+    code_btn: "Code",
     contact_heading: "Envoyez moi un message !",
     name_label: "Nom",
     email_label: "E-mail",
@@ -336,10 +356,11 @@ export const ru = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Разработчик полного стека веб-приложений и разработчик программного обеспечения, в настоящее время проживает в Суссе, Тунис. Моя основная цель и вдохновение для моих исследований - это веб-разработка. Я постоянно экспериментирую с новыми технологиями и техниками. Я очень увлечен веб-разработкой и стремлюсь улучшить себя как разработчик и сообщество разработчиков в целом.",
+    intro: "Инновационный веб-разработчик с 3-летним опытом разработки и программирования веб-сайтов. Продемонстрированный талант в области веб-разработки переднего и заднего плана для оптимизации присутствия в сети. Опытный эксперт в таких языках, как HTML, CSS, JavaScript, php, mySql.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
+    cv: "Maamoun-Grissa-Resume-june21-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -481,10 +502,13 @@ export const ru = {
     ],
 
     // Template Titles
+    download_link: "Скачать резюме в формате PDF",
     education_title: "Образование",
     experience_title: "Опыт",
     skills_title: "Навыки",
     portfolio_title: "Портфолио",
+    url_btn: "Ссылка",
+    code_btn: "Код",
     contact_heading: "Отправь мне сообщение !",
     name_label: "Имя",
     email_label: "Эл. адрес",
@@ -502,10 +526,11 @@ export const ar = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "مطور تطبيقات ويب ومطور برامج متكامل ، أعيش حاليًا في سوسة ، تونس. تركيزي الأساسي وإلهامي لدراستي هو تطوير الويب. أنا أجرب باستمرار التقنيات الجديدة. أنا متحمس جدًا لتطوير الويب ، وأسعى جاهداً لتحسين نفسي كمطور للواب و تطبيقات الهاتف.",
+    intro: "مطور تطبيقات ويب ومطور برامج متكامل ، أعيش حاليًا في سوسة ، تونس. تركيزي الأساسي وإلهامي لدراستي هو تطوير الويب. أنا أجرب باستمرار التقنيات الجديدة ومتحمس جدًا للتطوير و البرمجة، وأسعى جاهداً لتحسين نفسي كمطور للواب و تطبيقات الهاتف.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
+    cv: "Maamoun-Grissa-Resume-june21-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -522,6 +547,12 @@ export const ar = {
     ],
     experience: [
         {
+            logo: "freelancer.png",
+            desc: "مبرمج واب حر، الانترنت (عن بعد)",
+            mission: "مهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف",
+            date: "2019 - 2021",
+        },
+        {
             logo: "flegri.png",
             desc: "مبرمج واب بشركة فلقراي، موسكو، روسيا",
             mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف",
@@ -529,7 +560,7 @@ export const ar = {
         },
         {
             logo: "kvantum.png",
-            desc: "مبرمج واب بشركة كفانتوم، موسكو، روسيا",
+            desc: "مبرمج واب بشركة كفانتوم، موسكو، روسيا (عن بعد)",
             mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف",
             date: "2019 - 2021",
         },
@@ -647,10 +678,13 @@ export const ar = {
     ],
 
     // Template Titles
+    download_link: 'تحميل السيرة الذاتية',
     education_title: "الشهادات",
     experience_title: "الخبرات",
     skills_title: "المهارات",
     portfolio_title: "الانجازات",
+    url_btn: "الرابط",
+    code_btn: "الكود",
     contact_heading: "أرسل لي رسالة",
     name_label: "الاسم",
     email_label: "البريد الالكتروني",
