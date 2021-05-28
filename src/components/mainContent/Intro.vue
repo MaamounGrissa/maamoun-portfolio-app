@@ -7,7 +7,7 @@
             <h1 v-text="data.name" :class="data.lang === 'ar' ? 'rtl' : '' " />
             <h2 v-text="data.job" :class="data.lang === 'ar' ? 'rtl' : '' " />
             <p v-text="data.intro" :class="data.lang === 'ar' ? 'rtl' : '' " />
-            <a :href="'./../../assets/resumes/' + data.cv" target="_BLANK" :class="data.lang === 'ar' ? 'reverse' : '' " >
+            <a download :href="'/pdfs/' + data.cv" target="_BLANK" :class="data.lang === 'ar' ? 'reverse' : '' " >
                 <VueFeather type="download" stroke="darkorange" size="25" />
                 <span v-text="data.download_link" />
             </a>
@@ -17,10 +17,11 @@
 
 <script>
 import VueFeather from 'vue-feather';
+
     export default {
         name: 'Intro',
         components: {
-            VueFeather
+            VueFeather,
         },
         props: ['data']
     }

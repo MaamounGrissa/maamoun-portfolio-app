@@ -11,7 +11,7 @@
                  :class="data.lang === 'ar' ? 'rtl' : '' " >
 
                 </textarea>
-                <p id="feedback" v-text="feedback"></p>
+                <p id="feedback">&nbsp;</p>
                 <button @click.prevent="sendEmail">
                     {{ data.send_btn }}
                 </button>
