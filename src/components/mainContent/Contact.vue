@@ -20,23 +20,23 @@
         </div>
         <div>
             <a :href="'tel:' + data.phone" :class="data.lang === 'ar' ? 'item reverse' : 'item' ">
-                <img src="./../../assets/phone.png">
+                <img src="./../../assets/contacts/phone.png">
                 <span v-text="data.phone" />
             </a>
             <a :href="'mailto:' + data.email" :class="data.lang === 'ar' ? 'item reverse' : 'item' ">
-                <img src="./../../assets/gmail.png">
+                <img src="./../../assets/contacts/gmail.png">
                 <span v-text="data.email" />
             </a>
             <a :href="'https://www.linkedin.com/in/' + data.linkedin + '/'" target="_BLANK" :class="data.lang === 'ar' ? 'item reverse' : 'item' ">
-                <img src="./../../assets/linkedin.png">
+                <img src="./../../assets/contacts/linkedin.png">
                 <span v-text="data.linkedin" />
             </a>
             <a :href="'https://www.facebook.com/' + data.facebook + '/'" target="_BLANK" :class="data.lang === 'ar' ? 'item reverse' : 'item' ">
-                <img src="./../../assets/facebook.png">
+                <img src="./../../assets/contacts/facebook.png">
                 <span v-text="data.facebook" />
             </a>
             <a :href="'https://www.instagram.com/' + data.instagram + '/'" target="_BLANK" :class="data.lang === 'ar' ? 'item reverse' : 'item' ">
-                <img src="./../../assets/instagram.png">
+                <img src="./../../assets/contacts/instagram.png">
                 <span v-text="data.instagram" />
             </a>
         </div>

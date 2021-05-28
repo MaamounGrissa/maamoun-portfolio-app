@@ -6,7 +6,7 @@
         </div>
         <div class="skills-group" v-for="(group, index) in data.skills" :key="index">
             <div v-for="(skill, i) in group.groupSkills" :key="i">
-                <img :src="require('./../../assets/' + skill)" alt="Skill">
+                <img :src="require('./../../assets/skills/' + skill)" alt="Skill">
             </div>
         </div>
     </div>

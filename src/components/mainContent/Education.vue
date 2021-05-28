@@ -5,7 +5,7 @@
             <h3 v-text="data.education_title" :class="data.lang === 'ar' ? 'rtl' : '' " />
         </div>
         <div  v-for="(item, index) in data.education" :key="index" :class="data.lang === 'ar' ? 'item reverse' : 'item' " >
-            <img :src="require('./../../assets/' + item.logo)" alt="Logo">
+            <img :src="require('./../../assets/career/' + item.logo)" alt="Logo">
             <div>
                 <h4 v-text="item.certificate" :class="data.lang === 'ar' ? 'rtl' : '' " />
                 <h5 v-text="item.institute" :class="data.lang === 'ar' ? 'rtl' : '' " />

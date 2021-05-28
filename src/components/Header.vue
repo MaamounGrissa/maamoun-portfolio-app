@@ -2,13 +2,13 @@
   <header>
     <div class="languages">
       <img :class="isActive === 'AR' ? 'active' : ''" title="Arabic" 
-            src="./../assets/250-tunisia.png" alt="Flag" @click="selectLang('AR')">
+            src="./../assets/langs/tunisia.png" alt="Flag" @click="selectLang('AR')">
       <img :class="isActive === 'FR' ? 'active' : ''" title="French" 
-            src="./../assets/197-france.png" alt="Flag" @click="selectLang('FR')">
+            src="./../assets/langs/france.png" alt="Flag" @click="selectLang('FR')">
       <img :class="isActive === 'EN' ? 'active' : ''" title="English" 
-            src="./../assets/121-england.png" alt="Flag" @click="selectLang('EN')">
+            src="./../assets/langs/england.png" alt="Flag" @click="selectLang('EN')">
       <img :class="isActive === 'RU' ? 'active' : ''" title="Russian" 
-            src="./../assets/044-russia.png" alt="Flag" @click="selectLang('RU')">
+            src="./../assets/langs/russia.png" alt="Flag" @click="selectLang('RU')">
     </div>
     <div class="menu">
       <button @click.prevent="menuOpening">
