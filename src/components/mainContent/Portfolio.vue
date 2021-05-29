@@ -9,7 +9,7 @@
                 <h4 v-text="project.name" />
                 <img :src="require('./../../assets/portfolio/' + project.photo)" alt="Project">
                 <div class="actions">
-                    <a :class="project.code === '' ? 'url disable' : 'url'" target="_BLANK" :href="project.code">
+                    <a :class="project.code === '' ? 'url disable' : 'url'" target="_BLANK" :href="project.code === '#' ? '' : project.code">
                         <VueFeather type="github" stroke="white" size="20" />
                         <span v-text="data.code_btn" />
                     </a>
@@ -18,6 +18,7 @@
                         <span v-text="data.url_btn" />
                     </a>
                 </div>
+                <img :src="require('./../../assets/skills/' + project.skills[0] + '.png')" class="skill s1" alt="Skill">
             </div>
         </div>
     </div>
@@ -63,10 +64,12 @@
     }
 
     h4 {
-        text-align: center;
+        text-align: left;
         color: #fff;
         font-size: 1.2rem;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        padding-left: 20px;
     }
 
     .projects {
@@ -78,6 +81,7 @@
     }
 
     .project {
+        position: relative;
         width: 30%;
         border: 1px solid white;
         padding: 10px;
@@ -122,7 +126,18 @@
     }
 
     .url.disable {
-        background-color: transparent;
+        background-color: #51526e;
+        pointer-events: none;
+    }
+
+    .skill {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        position: absolute;
+        top: 5px;
+        right: 10px;
     }
 
     @media(max-width: 767px) {
