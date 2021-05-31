@@ -108,11 +108,25 @@ export const en = {
             skills: ["opencart"],
         },
         {
+            name: "My Portfolio App",
+            photo: "myportfolio.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://maamoun-grissa.netlify.app/",
+            skills: ["vuejs"],
+        },
+        {
             name: "Pro Artl",
             photo: "pro-artl.png",
             code: "",
             url: "https://pro-artl.ru/",
             skills: ["opencart"],
+        },
+        {
+            name: "BJMatrix Store App",
+            photo: "bjmatrix.png",
+            code: "https://github.com/MaamounGrissa/bjmatrix.git",
+            url: "https://bjmatrix.netlify.app/",
+            skills: ["vuejs"],
         },
         {
             name: "Conformit App",
@@ -127,6 +141,13 @@ export const en = {
             code: "https://github.com/MaamounGrissa/WearMoon",
             url: "https://wearmoon-reactjs.netlify.app/",
             skills: ["reactjs"],
+        },
+        {
+            name: "Auto Dom Kst",
+            photo: "autodomkst.png",
+            code: "https://github.com/MaamounGrissa/autodomkst",
+            url: "https://github.com/MaamounGrissa/autodomkst",
+            skills: ["laravel"],
         },
         {
             name: "Barrist",

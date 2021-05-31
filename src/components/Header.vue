@@ -56,6 +56,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 20px 15px -10px rgb(0 0 0 / 40%);
 }
 
 .languages {
