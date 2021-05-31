@@ -27,7 +27,7 @@ export const en = {
     experience: [
         {
             logo: "freelancer.png",
-            desc: "Web developer at Freelancer, Internet ( Remote )",
+            desc: "Web developer at Freelancer, Internet,  ( Remote )",
             mission: "Mission : Development of websites, web and mobile applications : - E-commerce plateforms using opencart cms & VueJS. - Catalog & Portfolio websites using Wordpress cms & VueJs. - Web & Mobile app using React JS & React Native + Api using Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
             date: "2019 - 2021",
         },
@@ -146,7 +146,7 @@ export const en = {
             name: "Auto Dom Kst",
             photo: "autodomkst.png",
             code: "https://github.com/MaamounGrissa/autodomkst",
-            url: "https://github.com/MaamounGrissa/autodomkst",
+            url: "",
             skills: ["laravel"],
         },
         {

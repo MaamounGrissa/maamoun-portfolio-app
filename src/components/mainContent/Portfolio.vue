@@ -10,11 +10,11 @@
                 <img :src="require('./../../assets/portfolio/' + project.photo)" alt="Project">
                 <div class="actions">
                     <a :class="project.code === '' ? 'url disable' : 'url'" target="_BLANK" :href="project.code === '#' ? '' : project.code">
-                        <VueFeather type="github" stroke="white" size="20" />
+                        <VueFeather type="github" size="20" />
                         <span v-text="data.code_btn" />
                     </a>
-                    <a class="url" target="_BLANK" :href="project.url">
-                        <VueFeather type="link" stroke="white" size="20" />
+                    <a :class="project.url === '' ? 'url disable' : 'url'" target="_BLANK" :href="project.url">
+                        <VueFeather type="link" size="20" />
                         <span v-text="data.url_btn" />
                     </a>
                 </div>
@@ -118,7 +118,8 @@
     }
 
     a.url:hover {
-        background-color: #1f203a;
+        background-color: white;
+        color: #1f203a;
     }
 
     .url>span {
