@@ -19,6 +19,7 @@
                     </a>
                 </div>
                 <img :src="require('./../../assets/skills/' + project.skills[0] + '.png')" class="skill s1" alt="Skill">
+                <img v-if="project.skills[1]" :src="require('./../../assets/skills/' + project.skills[1] + '.png')" class="skill s2" alt="Skill">
             </div>
         </div>
     </div>
@@ -138,7 +139,14 @@
         box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         position: absolute;
         top: 5px;
+    }
+
+    .skill.s1 {
         right: 10px;
+    }
+
+    .skill.s2 {
+        right: 75px;
     }
 
     @media(max-width: 767px) {

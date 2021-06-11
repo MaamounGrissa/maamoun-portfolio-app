@@ -101,6 +101,13 @@ export const en = {
     ],
     portfolio: [
         {
+            name: "DNL Deco",
+            photo: "dnl.png",
+            code: "https://git.heroku.com/dnl-deco-lazer.git",
+            url: "https://dnl-deco-lazer.herokuapp.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
             name: "Dali Market",
             photo: "dalimarket.png",
             code: "https://github.com/MaamounGrissa/dalimarket",
@@ -198,13 +205,13 @@ export const en = {
             url: "http://www.aidaprazdnik-dedmoroz.ru/",
             skills: ["jquery"],
         },
-        {
+        /* {
             name: "Bahitgul Hotel",
             photo: "bahitgul.png",
             code: "",
             url: "https://bahitgul.com/",
             skills: ["wordpress"],
-        },
+        }, */
     ],
 
 
