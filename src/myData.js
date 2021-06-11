@@ -103,7 +103,7 @@ export const en = {
         {
             name: "DNL Deco",
             photo: "dnl.png",
-            code: "https://git.heroku.com/dnl-deco-lazer.git",
+            code: "https://github.com/MaamounGrissa/dnl",
             url: "https://dnl-deco-lazer.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
         },
