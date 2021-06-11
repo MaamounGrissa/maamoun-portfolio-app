@@ -5,7 +5,7 @@ export const en = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Innovative Web Developer with 3 years of experience in website design and coding. Demonstrated talent for front and back-end web development to optimize online presence. Seasoned expert in languages such as HTML, CSS, JavaScript, php, mySql.",
+    intro: "Innovative Full Stack Web Developer with 3 years of experience in websites, web-apps and mobile-apps design and coding. Demonstrated talent for front and back-end web development to optimize online presence. Seasoned expert in languages such as HTML, CSS, JavaScript, php, mySql.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -239,7 +239,7 @@ export const fr = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Développeur Web innovant avec 3 ans d'expérience dans la conception et le codage de sites Web. Talent démontré pour le développement Web front-end et back-end afin d'optimiser la présence en ligne. Expert chevronné dans les langages tels que HTML, CSS, JavaScript, php, mySql.",
+    intro: "Développeur Web Full Stack innovant avec 3 ans d'expérience dans la conception et le codage de sites Web, d'applications Web et d'applications mobiles. Talent démontré pour le développement Web front-end et back-end afin d'optimiser la présence en ligne. Expert chevronné des langages tels que HTML, CSS, JavaScript, php, mySql.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -335,6 +335,13 @@ export const fr = {
     ],
     portfolio: [
         {
+            name: "DNL Deco",
+            photo: "dnl.png",
+            code: "https://github.com/MaamounGrissa/dnl",
+            url: "https://dnl-deco-lazer.herokuapp.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
             name: "Dali Market",
             photo: "dalimarket.png",
             code: "https://github.com/MaamounGrissa/dalimarket",
@@ -342,11 +349,25 @@ export const fr = {
             skills: ["opencart"],
         },
         {
+            name: "My Portfolio App",
+            photo: "myportfolio.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://maamoun-grissa.netlify.app/",
+            skills: ["vuejs"],
+        },
+        {
             name: "Pro Artl",
             photo: "pro-artl.png",
             code: "",
             url: "https://pro-artl.ru/",
             skills: ["opencart"],
+        },
+        {
+            name: "BJMatrix Store App",
+            photo: "bjmatrix.png",
+            code: "https://github.com/MaamounGrissa/bjmatrix.git",
+            url: "https://bjmatrix.netlify.app/",
+            skills: ["vuejs"],
         },
         {
             name: "Conformit App",
@@ -361,6 +382,13 @@ export const fr = {
             code: "https://github.com/MaamounGrissa/WearMoon",
             url: "https://wearmoon-reactjs.netlify.app/",
             skills: ["reactjs"],
+        },
+        {
+            name: "Auto Dom Kst",
+            photo: "autodomkst.png",
+            code: "https://github.com/MaamounGrissa/autodomkst",
+            url: "",
+            skills: ["laravel"],
         },
         {
             name: "Barrist",
@@ -411,13 +439,13 @@ export const fr = {
             url: "http://www.aidaprazdnik-dedmoroz.ru/",
             skills: ["jquery"],
         },
-        {
+        /* {
             name: "Bahitgul Hotel",
             photo: "bahitgul.png",
             code: "",
             url: "https://bahitgul.com/",
             skills: ["wordpress"],
-        },
+        }, */
     ],
 
     // Template Titles
@@ -444,7 +472,7 @@ export const ru = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Инновационный веб-разработчик с 3-летним опытом разработки и программирования веб-сайтов. Продемонстрированный талант в области веб-разработки переднего и заднего плана для оптимизации присутствия в сети. Опытный эксперт в таких языках, как HTML, CSS, JavaScript, php, mySql.",
+    intro: "Инновационный веб-разработчик полного стека с 3-летним опытом разработки и кодирования веб-сайтов, веб-приложений и мобильных приложений. Продемонстрировал талант к фронтальной и серверной веб-разработке для оптимизации присутствия в Интернете. Опытный эксперт в таких языках, как HTML, CSS, JavaScript, php, MySQL.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -540,6 +568,13 @@ export const ru = {
     ],
     portfolio: [
         {
+            name: "DNL Deco",
+            photo: "dnl.png",
+            code: "https://github.com/MaamounGrissa/dnl",
+            url: "https://dnl-deco-lazer.herokuapp.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
             name: "Dali Market",
             photo: "dalimarket.png",
             code: "https://github.com/MaamounGrissa/dalimarket",
@@ -547,11 +582,25 @@ export const ru = {
             skills: ["opencart"],
         },
         {
+            name: "My Portfolio App",
+            photo: "myportfolio.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://maamoun-grissa.netlify.app/",
+            skills: ["vuejs"],
+        },
+        {
             name: "Pro Artl",
             photo: "pro-artl.png",
             code: "",
             url: "https://pro-artl.ru/",
             skills: ["opencart"],
+        },
+        {
+            name: "BJMatrix Store App",
+            photo: "bjmatrix.png",
+            code: "https://github.com/MaamounGrissa/bjmatrix.git",
+            url: "https://bjmatrix.netlify.app/",
+            skills: ["vuejs"],
         },
         {
             name: "Conformit App",
@@ -566,6 +615,13 @@ export const ru = {
             code: "https://github.com/MaamounGrissa/WearMoon",
             url: "https://wearmoon-reactjs.netlify.app/",
             skills: ["reactjs"],
+        },
+        {
+            name: "Auto Dom Kst",
+            photo: "autodomkst.png",
+            code: "https://github.com/MaamounGrissa/autodomkst",
+            url: "",
+            skills: ["laravel"],
         },
         {
             name: "Barrist",
@@ -616,13 +672,13 @@ export const ru = {
             url: "http://www.aidaprazdnik-dedmoroz.ru/",
             skills: ["jquery"],
         },
-        {
+        /* {
             name: "Bahitgul Hotel",
             photo: "bahitgul.png",
             code: "",
             url: "https://bahitgul.com/",
             skills: ["wordpress"],
-        },
+        }, */
     ],
 
     // Template Titles
@@ -746,6 +802,13 @@ export const ar = {
     ],
     portfolio: [
         {
+            name: "DNL Deco",
+            photo: "dnl.png",
+            code: "https://github.com/MaamounGrissa/dnl",
+            url: "https://dnl-deco-lazer.herokuapp.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
             name: "Dali Market",
             photo: "dalimarket.png",
             code: "https://github.com/MaamounGrissa/dalimarket",
@@ -753,11 +816,25 @@ export const ar = {
             skills: ["opencart"],
         },
         {
+            name: "My Portfolio App",
+            photo: "myportfolio.png",
+            code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
+            url: "https://maamoun-grissa.netlify.app/",
+            skills: ["vuejs"],
+        },
+        {
             name: "Pro Artl",
             photo: "pro-artl.png",
             code: "",
             url: "https://pro-artl.ru/",
             skills: ["opencart"],
+        },
+        {
+            name: "BJMatrix Store App",
+            photo: "bjmatrix.png",
+            code: "https://github.com/MaamounGrissa/bjmatrix.git",
+            url: "https://bjmatrix.netlify.app/",
+            skills: ["vuejs"],
         },
         {
             name: "Conformit App",
@@ -772,6 +849,13 @@ export const ar = {
             code: "https://github.com/MaamounGrissa/WearMoon",
             url: "https://wearmoon-reactjs.netlify.app/",
             skills: ["reactjs"],
+        },
+        {
+            name: "Auto Dom Kst",
+            photo: "autodomkst.png",
+            code: "https://github.com/MaamounGrissa/autodomkst",
+            url: "",
+            skills: ["laravel"],
         },
         {
             name: "Barrist",
@@ -822,13 +906,13 @@ export const ar = {
             url: "http://www.aidaprazdnik-dedmoroz.ru/",
             skills: ["jquery"],
         },
-        {
+        /* {
             name: "Bahitgul Hotel",
             photo: "bahitgul.png",
             code: "",
             url: "https://bahitgul.com/",
             skills: ["wordpress"],
-        },
+        }, */
     ],
 
     // Template Titles
