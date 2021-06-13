@@ -27,7 +27,7 @@ export const en = {
     experience: [
         {
             logo: "freelancer.png",
-            desc: "Web developer at Freelancer, Internet,  ( Remote )",
+            desc: "Web developer at Freelancer & Upwork, Internet, (Remote)",
             mission: "Mission : Development of websites, web and mobile applications : - E-commerce plateforms using opencart cms & VueJS. - Catalog & Portfolio websites using Wordpress cms & VueJs. - Web & Mobile app using React JS & React Native + Api using Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
             date: "2019 - 2021",
         },
@@ -39,7 +39,7 @@ export const en = {
         },
         {
             logo: "kvantum.png",
-            desc: "Full-Stack Web developer at Kvantum, Moscow, Russia ( Remote )",
+            desc: "Full-Stack Web developer at Kvantum, Moscow, Russia, (Remote)",
             mission: "Mission : Development of websites, web and mobile applications. - Catalog websites using joomla cms. - Development of web application using Laravel 7.",
             date: "2019 - 2021",
         },
@@ -261,20 +261,20 @@ export const fr = {
     experience: [
         {
             logo: "freelancer.png",
-            desc: "Développeur web Full-Stack Freelancer, Internet ( à distance )",
-            mission: "Mission : Développement du sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms & VueJS. - Sites Web Catalogue & Portfolio Utilisant Wordpress Cms & VueJS. - Application web et mobile utilisant React JS & React Native + Api utilisant Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
+            desc: "Développeur web Full-Stack Freelancer & Upwork, Internet (télétravail)",
+            mission: "Mission : Développement de sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms & VueJS. - Sites Web Catalogue & Portfolio Utilisant Wordpress Cms & VueJS. - Application web et mobile utilisant React JS & React Native + Api utilisant Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
             date: "2021 - Présent",
         },
         {
             logo: "flegri.png",
             desc: "Développeur web Full-Stack chez Flegrei, Moscou, Russie",
-            mission: "Mission : Développement du sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms. - Sites Web Catalogue & Portfolio Utilisant Wordpress Cms. - Application mobile utlisant Ionic-framework & Angular Js + Api utilisant Laravel 7.",
+            mission: "Mission : Développement de sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms. - Sites Web Catalogue & Portfolio Utilisant Wordpress Cms. - Application mobile utlisant Ionic-framework & Angular Js + Api utilisant Laravel 7.",
             date: "2019 - 2021",
         },
         {
             logo: "kvantum.png",
-            desc: "Développeur web Full-Stack chez Kvantum, Moscou, Russie ( à distance )",
-            mission: "Mission : Développement du sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms. - •	Sites Web Catalogue & Portfolio Utilisant Joomla Cms. - •	Application web Utilisant Laravel 7.",
+            desc: "Développeur web Full-Stack chez Kvantum, Moscou, Russie (télétravail)",
+            mission: "Mission : Développement de sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms. - •	Sites Web Catalogue & Portfolio Utilisant Joomla Cms. - •	Application web Utilisant Laravel 7.",
             date: "2019 - 2021",
         },
         {
@@ -494,7 +494,7 @@ export const ru = {
     experience: [
         {
             logo: "freelancer.png",
-            desc: "Веб-разработчик Full-Stack, Фрилансер, Интернет (Удаленный)",
+            desc: "Веб-разработчик Full-Stack, Freelancer & Upwork , Интернет (Удаленный)",
             mission: "Обязанности: Разработка веб-сайтов, веб-и мобильных приложений : - Платформы электронной коммерции с использованием opencart cms и Vue JS. - Каталог и портфолио веб-сайтов с Wordpress CMS и Vue JS. - Веб-и мобильное приложение с React JS и React Native + Api с Laravel 8 & Livewire 2 & Tailwindcss & Alpine.",
             date: "2019 - 2021",
         },
