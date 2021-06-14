@@ -104,7 +104,7 @@ export const en = {
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
-            url: "https://dnl-deco-lazer.herokuapp.com/",
+            url: "https://dnl-deco.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
         },
         {
@@ -338,7 +338,7 @@ export const fr = {
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
-            url: "https://dnl-deco-lazer.herokuapp.com/",
+            url: "https://dnl-deco.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
         },
         {
@@ -571,7 +571,7 @@ export const ru = {
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
-            url: "https://dnl-deco-lazer.herokuapp.com/",
+            url: "https://dnl-deco.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
         },
         {
@@ -805,7 +805,7 @@ export const ar = {
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
-            url: "https://dnl-deco-lazer.herokuapp.com/",
+            url: "https://dnl-deco.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
         },
         {
