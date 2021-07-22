@@ -101,6 +101,13 @@ export const en = {
     ],
     portfolio: [
         {
+            name: "Valorant Boosting",
+            photo: "valorant.png",
+            code: "https://github.com/MaamounGrissa/valorantboosting",
+            url: "https://valorantboosting.herokuapp.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
@@ -192,13 +199,6 @@ export const en = {
             skills: ["joomla"],
         },
         {
-            name: "Flegrei",
-            photo: "flegri.png",
-            code: "",
-            url: "https://www.flegri.com/",
-            skills: ["wordpress"],
-        },
-        {
             name: "Aidapraznik",
             photo: "aidapraznik.png",
             code: "https://github.com/MaamounGrissa/Aidapraznik2020",
@@ -206,6 +206,13 @@ export const en = {
             skills: ["jquery"],
         },
         /* {
+            name: "Flegrei",
+            photo: "flegri.png",
+            code: "",
+            url: "https://www.flegri.com/",
+            skills: ["wordpress"],
+        },
+        {
             name: "Bahitgul Hotel",
             photo: "bahitgul.png",
             code: "",
@@ -335,6 +342,13 @@ export const fr = {
     ],
     portfolio: [
         {
+            name: "Valorant Boosting",
+            photo: "valorant.png",
+            code: "https://github.com/MaamounGrissa/valorantboosting",
+            url: "https://valorantboosting.herokuapp.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
@@ -426,13 +440,6 @@ export const fr = {
             skills: ["joomla"],
         },
         {
-            name: "Flegrei",
-            photo: "flegri.png",
-            code: "",
-            url: "https://www.flegri.com/",
-            skills: ["wordpress"],
-        },
-        {
             name: "Aidapraznik",
             photo: "aidapraznik.png",
             code: "https://github.com/MaamounGrissa/Aidapraznik2020",
@@ -440,6 +447,13 @@ export const fr = {
             skills: ["jquery"],
         },
         /* {
+            name: "Flegrei",
+            photo: "flegri.png",
+            code: "",
+            url: "https://www.flegri.com/",
+            skills: ["wordpress"],
+        },
+        {
             name: "Bahitgul Hotel",
             photo: "bahitgul.png",
             code: "",
@@ -568,6 +582,13 @@ export const ru = {
     ],
     portfolio: [
         {
+            name: "Valorant Boosting",
+            photo: "valorant.png",
+            code: "https://github.com/MaamounGrissa/valorantboosting",
+            url: "https://valorantboosting.herokuapp.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
@@ -659,13 +680,6 @@ export const ru = {
             skills: ["joomla"],
         },
         {
-            name: "Flegrei",
-            photo: "flegri.png",
-            code: "",
-            url: "https://www.flegri.com/",
-            skills: ["wordpress"],
-        },
-        {
             name: "Aidapraznik",
             photo: "aidapraznik.png",
             code: "https://github.com/MaamounGrissa/Aidapraznik2020",
@@ -673,6 +687,13 @@ export const ru = {
             skills: ["jquery"],
         },
         /* {
+            name: "Flegrei",
+            photo: "flegri.png",
+            code: "",
+            url: "https://www.flegri.com/",
+            skills: ["wordpress"],
+        },
+        {
             name: "Bahitgul Hotel",
             photo: "bahitgul.png",
             code: "",
@@ -802,6 +823,13 @@ export const ar = {
     ],
     portfolio: [
         {
+            name: "Valorant Boosting",
+            photo: "valorant.png",
+            code: "https://github.com/MaamounGrissa/valorantboosting",
+            url: "https://valorantboosting.herokuapp.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
@@ -893,13 +921,6 @@ export const ar = {
             skills: ["joomla"],
         },
         {
-            name: "Flegrei",
-            photo: "flegri.png",
-            code: "",
-            url: "https://www.flegri.com/",
-            skills: ["wordpress"],
-        },
-        {
             name: "Aidapraznik",
             photo: "aidapraznik.png",
             code: "https://github.com/MaamounGrissa/Aidapraznik2020",
@@ -907,6 +928,13 @@ export const ar = {
             skills: ["jquery"],
         },
         /* {
+            name: "Flegrei",
+            photo: "flegri.png",
+            code: "",
+            url: "https://www.flegri.com/",
+            skills: ["wordpress"],
+        },
+        {
             name: "Bahitgul Hotel",
             photo: "bahitgul.png",
             code: "",
