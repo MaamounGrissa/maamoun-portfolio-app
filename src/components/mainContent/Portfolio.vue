@@ -133,10 +133,9 @@
     }
 
     .skill {
-        width: 50px;
-        height: 50px;
+        width: 47px;
+        height: 47px;
         border-radius: 50%;
-        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         position: absolute;
         top: 5px;
     }
@@ -146,7 +145,7 @@
     }
 
     .skill.s2 {
-        right: 75px;
+        right: 70px;
     }
 
     @media(max-width: 767px) {
