@@ -5,7 +5,7 @@ export const en = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Innovative Full Stack Web Developer with 3 years of experience in websites, web-apps and mobile-apps design and coding. Demonstrated talent for front and back-end web development to optimize online presence. Seasoned expert in languages such as HTML, CSS, JavaScript, php, mySql.",
+    intro: "Innovative Full Stack Web Developer with 4 years of experience in websites, web-apps and mobile-apps design and coding. Demonstrated talent for front and back-end web development to optimize online presence. Seasoned expert in languages such as HTML, CSS, JavaScript, php, mySql.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -25,6 +25,12 @@ export const en = {
         },
     ],
     experience: [
+        {
+            logo: "anytime.png",
+            desc: "Prject manager at Anytime & Anywhere",
+            mission: "Mission : Development of websites, web and mobile applications : - E-commerce plateforms using NodeJs, Express & ReactJS, Redux. - Catalog & Portfolio websites using ReactJs & MaterialUI || VueJS. - Web & Mobile app using React JS & React Native + Api using NodeJs & Express || Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
+            date: "2021 - Today",
+        },
         {
             logo: "freelancer.png",
             desc: "Web developer at Freelancer & Upwork, Internet, (Remote)",
@@ -97,9 +103,26 @@ export const en = {
                 "joomla.png",
             ]
         },
+        {
+            groupName: "Mern-Stack Skills",
+            groupSkills: [
+                "express.png",
+                "mongodb.png",
+                "redux.png",
+                "materialui.png",
+                "heroku.png",
+            ]
+        },
         
     ],
     portfolio: [
+        {
+            name: "Anytime & Anywhere",
+            photo: "anytime.png",
+            code: "https://github.com/MaamounGrissa/anytimeanywhere.git",
+            url: "https://anytime4anywhere.fr/",
+            skills: ["reactjs"],
+        },
         {
             name: "Valorant Boosting",
             photo: "valorant.png",
@@ -205,7 +228,7 @@ export const en = {
             url: "http://www.aidaprazdnik-dedmoroz.ru/",
             skills: ["jquery"],
         },
-        /* {
+        {
             name: "Flegrei",
             photo: "flegri.png",
             code: "",
@@ -218,7 +241,8 @@ export const en = {
             code: "",
             url: "https://bahitgul.com/",
             skills: ["wordpress"],
-        }, */
+        },
+
     ],
 
 
@@ -246,7 +270,7 @@ export const fr = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Développeur Web Full Stack innovant avec 3 ans d'expérience dans la conception et le codage de sites Web, d'applications Web et d'applications mobiles. Talent démontré pour le développement Web front-end et back-end afin d'optimiser la présence en ligne. Expert chevronné des langages tels que HTML, CSS, JavaScript, php, mySql.",
+    intro: "Développeur Web Full Stack innovant avec 4 ans d'expérience dans la conception et le codage de sites Web, d'applications Web et d'applications mobiles. Talent démontré pour le développement Web front-end et back-end afin d'optimiser la présence en ligne. Expert chevronné des langages tels que HTML, CSS, JavaScript, php, mySql.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -267,10 +291,16 @@ export const fr = {
     ],
     experience: [
         {
+            logo: "anytime.png",
+            desc: "Chef de projet chez Anytime & Anywhere",
+            mission: "Mission : Développement de sites web, des applications web et mobile : - Plateformes E-commerce utilisant NodeJs, Express & ReactJS, Redux. - Sites Web Catalogue & Portfolio Utilisant ReactJs & MaterialUI || VueJS. - Application web et mobile utilisant React JS & React Native + Api utilisant NodeJs & Express || Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
+            date: "2021 - Présent",
+        },
+        {
             logo: "freelancer.png",
             desc: "Développeur web Full-Stack Freelancer & Upwork, Internet (télétravail)",
             mission: "Mission : Développement de sites web, des applications web et mobile : - Plateformes E-commerce utilisant Opencart Cms & VueJS. - Sites Web Catalogue & Portfolio Utilisant Wordpress Cms & VueJS. - Application web et mobile utilisant React JS & React Native + Api utilisant Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
-            date: "2021 - Présent",
+            date: "2019 - 2021",
         },
         {
             logo: "flegri.png",
@@ -338,9 +368,26 @@ export const fr = {
                 "joomla.png",
             ]
         },
+        {
+            groupName: "Mern-Stack Skills",
+            groupSkills: [
+                "express.png",
+                "mongodb.png",
+                "redux.png",
+                "materialui.png",
+                "heroku.png",
+            ]
+        },
         
     ],
     portfolio: [
+        {
+            name: "Anytime & Anywhere",
+            photo: "anytime.png",
+            code: "https://github.com/MaamounGrissa/anytimeanywhere.git",
+            url: "https://anytime4anywhere.fr/",
+            skills: ["reactjs"],
+        },
         {
             name: "Valorant Boosting",
             photo: "valorant.png",
@@ -446,7 +493,7 @@ export const fr = {
             url: "http://www.aidaprazdnik-dedmoroz.ru/",
             skills: ["jquery"],
         },
-        /* {
+        {
             name: "Flegrei",
             photo: "flegri.png",
             code: "",
@@ -459,7 +506,8 @@ export const fr = {
             code: "",
             url: "https://bahitgul.com/",
             skills: ["wordpress"],
-        }, */
+        },
+
     ],
 
     // Template Titles
@@ -486,7 +534,7 @@ export const ru = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Инновационный веб-разработчик полного стека с 3-летним опытом разработки и кодирования веб-сайтов, веб-приложений и мобильных приложений. Продемонстрировал талант к фронтальной и серверной веб-разработке для оптимизации присутствия в Интернете. Опытный эксперт в таких языках, как HTML, CSS, JavaScript, php, MySQL.",
+    intro: "Инновационный веб-разработчик полного стека с 4-летним опытом разработки и кодирования веб-сайтов, веб-приложений и мобильных приложений. Продемонстрировал талант к фронтальной и серверной веб-разработке для оптимизации присутствия в Интернете. Опытный эксперт в таких языках, как HTML, CSS, JavaScript, php, MySQL.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -506,6 +554,12 @@ export const ru = {
         },
     ],
     experience: [
+        {
+            logo: "anytime.png",
+            desc: "Менеджер проекта в Anytime & Anywhere",
+            mission: "Разработка веб-сайтов, веб-приложений и мобильных приложений: - Платформы электронной коммерции с использованием NodeJs, Express & ReactJS, Redux. - Сайты-каталоги и портфолио с использованием ReactJs и MaterialUI || VueJS. - Веб-приложение и мобильное приложение с использованием React JS и React Native + Api с использованием NodeJs и Express || Laravel 8, Livewire 2, Tailwindcss и AlpineJs.",
+            date: "2021 - Сегодня",
+        },        
         {
             logo: "freelancer.png",
             desc: "Веб-разработчик Full-Stack, Freelancer & Upwork , Интернет (Удаленный)",
@@ -578,9 +632,26 @@ export const ru = {
                 "joomla.png",
             ]
         },
+        {
+            groupName: "Mern-Stack Skills",
+            groupSkills: [
+                "express.png",
+                "mongodb.png",
+                "redux.png",
+                "materialui.png",
+                "heroku.png",
+            ]
+        },
         
     ],
     portfolio: [
+        {
+            name: "Anytime & Anywhere",
+            photo: "anytime.png",
+            code: "https://github.com/MaamounGrissa/anytimeanywhere.git",
+            url: "https://anytime4anywhere.fr/",
+            skills: ["reactjs"],
+        },
         {
             name: "Valorant Boosting",
             photo: "valorant.png",
@@ -686,7 +757,7 @@ export const ru = {
             url: "http://www.aidaprazdnik-dedmoroz.ru/",
             skills: ["jquery"],
         },
-        /* {
+        {
             name: "Flegrei",
             photo: "flegri.png",
             code: "",
@@ -699,7 +770,8 @@ export const ru = {
             code: "",
             url: "https://bahitgul.com/",
             skills: ["wordpress"],
-        }, */
+        },
+
     ],
 
     // Template Titles
@@ -727,7 +799,7 @@ export const ar = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "مطور تطبيقات ويب ومطور برامج متكامل ، أعيش حاليًا في سوسة ، تونس. تركيزي الأساسي وإلهامي لدراستي هو تطوير الويب. أنا أجرب باستمرار التقنيات الجديدة ومتحمس جدًا للتطوير و البرمجة، وأسعى جاهداً لتحسين نفسي كمطور للواب و تطبيقات الهاتف.",
+    intro: "مطور تطبيقات ويب ومطور برامج متكامل (Full Stack)، أعيش حاليًا في سوسة ، تونس. تركيزي الأساسي وإلهامي في دراستي هو تطوير الويب والبرمجة. أتطلع باستمرار التقنيات الجديدة ومتحمس جدًا للتطوير و البرمجة، وأسعى جاهداً لتحسين نفسي في مجالي الواب و تطبيقات الهاتف.",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -747,6 +819,12 @@ export const ar = {
         },
     ],
     experience: [
+        {
+            logo: "anytime.png",
+            desc: "رئيس مشروع برمجة واب بشركة Anytime & Anywhere",
+            mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف : تطوير و برمجة مواقع للتجارة الالكترونية و المواقع والتطبيقات الخاصة بالأفراد و الشركات",
+            date: "2021 - اليوم",
+        },
         {
             logo: "freelancer.png",
             desc: "مبرمج واب حر، الانترنت (عن بعد)",
@@ -819,9 +897,26 @@ export const ar = {
                 "joomla.png",
             ]
         },
+        {
+            groupName: "Mern-Stack Skills",
+            groupSkills: [
+                "express.png",
+                "mongodb.png",
+                "redux.png",
+                "materialui.png",
+                "heroku.png",
+            ]
+        },
         
     ],
     portfolio: [
+        {
+            name: "Anytime & Anywhere",
+            photo: "anytime.png",
+            code: "https://github.com/MaamounGrissa/anytimeanywhere.git",
+            url: "https://anytime4anywhere.fr/",
+            skills: ["reactjs"],
+        },
         {
             name: "Valorant Boosting",
             photo: "valorant.png",
@@ -927,7 +1022,7 @@ export const ar = {
             url: "http://www.aidaprazdnik-dedmoroz.ru/",
             skills: ["jquery"],
         },
-        /* {
+        {
             name: "Flegrei",
             photo: "flegri.png",
             code: "",
@@ -940,7 +1035,8 @@ export const ar = {
             code: "",
             url: "https://bahitgul.com/",
             skills: ["wordpress"],
-        }, */
+        },
+
     ],
 
     // Template Titles
