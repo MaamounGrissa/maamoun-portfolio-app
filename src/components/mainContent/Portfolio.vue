@@ -145,7 +145,7 @@
     }
 
     .skill.s2 {
-        right: 70px;
+        right: 62px;
     }
 
     @media(max-width: 767px) {
