@@ -67,7 +67,7 @@
     h4 {
         text-align: left;
         color: #fff;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-bottom: 15px;
         margin-top: 10px;
         padding-left: 20px;
@@ -141,14 +141,18 @@
     }
 
     .skill.s1 {
-        right: 10px;
+        right: 5px;
     }
 
     .skill.s2 {
-        right: 62px;
+        right: 50px;
     }
 
     @media(max-width: 767px) {
+        h4 {
+            font-size: 1rem;
+        }
+
         .project {
             width: 100%;
         }
@@ -156,6 +160,20 @@
         a.url span{
             margin-left: 5px;
             font-style: 15px;
+        }
+
+        .skill {
+            width: 40px;
+            height: 40px;
+            top: 7px;
+        }
+        
+        .skill.s1 {
+            right: 3px;
+        }
+
+        .skill.s2 {
+            right: 45px;
         }
     }
 
