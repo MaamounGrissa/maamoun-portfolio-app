@@ -27,7 +27,7 @@ export const en = {
     experience: [
         {
             logo: "anytime.png",
-            desc: "Prject manager at Anytime & Anywhere",
+            desc: "Project manager at Anytime & Anywhere",
             mission: "Mission : Development of websites, web and mobile applications : - E-commerce plateforms using NodeJs, Express & ReactJS, Redux. - Catalog & Portfolio websites using ReactJs & MaterialUI || VueJS. - Web & Mobile app using React JS & React Native + Api using NodeJs & Express || Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
             date: "2021 - Today",
         },
