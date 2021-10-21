@@ -86,10 +86,10 @@ export const en = {
         {
             groupName: "Front-end Skills",
             groupSkills: [
-                "vuejs.png",
                 "reactjs.png",
+                "next.png",
+                "vuejs.png",
                 "reactnative.png",
-                "angularjs.png",
                 "ionic.png",
             ]
         },
@@ -117,10 +117,24 @@ export const en = {
     ],
     portfolio: [
         {
+            name: "Iber Conseils",
+            photo: "iber.png",
+            code: "https://github.com/MaamounGrissa/iber.git",
+            url: "https://iber-conseils.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
+            name: "Arine Conseils",
+            photo: "arine.png",
+            code: "https://github.com/MaamounGrissa/aca-next.git",
+            url: "https://arine-conseils.com/",
+            skills: ["next", "css"],
+        },
+        {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
             code: "https://github.com/MaamounGrissa/Anytime4Anywhere.git",
-            url: "https://anytime4anywhere.fr/",
+            url: "https://anytime4anywhere.com/",
             skills: ["reactjs", "css"],
         },
         {
@@ -351,10 +365,10 @@ export const fr = {
         {
             groupName: "Front-end Skills",
             groupSkills: [
-                "vuejs.png",
                 "reactjs.png",
+                "next.png",
+                "vuejs.png",
                 "reactnative.png",
-                "angularjs.png",
                 "ionic.png",
             ]
         },
@@ -382,10 +396,24 @@ export const fr = {
     ],
     portfolio: [
         {
+            name: "Iber Conseils",
+            photo: "iber.png",
+            code: "https://github.com/MaamounGrissa/iber.git",
+            url: "https://iber-conseils.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
+            name: "Arine Conseils",
+            photo: "arine.png",
+            code: "https://github.com/MaamounGrissa/aca-next.git",
+            url: "https://arine-conseils.com/",
+            skills: ["next", "css"],
+        },
+        {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
             code: "https://github.com/MaamounGrissa/Anytime4Anywhere.git",
-            url: "https://anytime4anywhere.fr/",
+            url: "https://anytime4anywhere.com/",
             skills: ["reactjs", "css"],
         },
         {
@@ -615,10 +643,10 @@ export const ru = {
         {
             groupName: "Front-end Skills",
             groupSkills: [
-                "vuejs.png",
                 "reactjs.png",
+                "next.png",
+                "vuejs.png",
                 "reactnative.png",
-                "angularjs.png",
                 "ionic.png",
             ]
         },
@@ -646,10 +674,24 @@ export const ru = {
     ],
     portfolio: [
         {
+            name: "Iber Conseils",
+            photo: "iber.png",
+            code: "https://github.com/MaamounGrissa/iber.git",
+            url: "https://iber-conseils.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
+            name: "Arine Conseils",
+            photo: "arine.png",
+            code: "https://github.com/MaamounGrissa/aca-next.git",
+            url: "https://arine-conseils.com/",
+            skills: ["next", "css"],
+        },
+        {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
             code: "https://github.com/MaamounGrissa/Anytime4Anywhere.git",
-            url: "https://anytime4anywhere.fr/",
+            url: "https://anytime4anywhere.com/",
             skills: ["reactjs", "css"],
         },
         {
@@ -880,10 +922,10 @@ export const ar = {
         {
             groupName: "Front-end Skills",
             groupSkills: [
-                "vuejs.png",
                 "reactjs.png",
+                "next.png",
+                "vuejs.png",
                 "reactnative.png",
-                "angularjs.png",
                 "ionic.png",
             ]
         },
@@ -911,10 +953,24 @@ export const ar = {
     ],
     portfolio: [
         {
+            name: "Iber Conseils",
+            photo: "iber.png",
+            code: "https://github.com/MaamounGrissa/iber.git",
+            url: "https://iber-conseils.com/",
+            skills: ["reactjs", "nodejs"],
+        },
+        {
+            name: "Arine Conseils",
+            photo: "arine.png",
+            code: "https://github.com/MaamounGrissa/aca-next.git",
+            url: "https://arine-conseils.com/",
+            skills: ["next", "css"],
+        },
+        {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
             code: "https://github.com/MaamounGrissa/Anytime4Anywhere.git",
-            url: "https://anytime4anywhere.fr/",
+            url: "https://anytime4anywhere.com/",
             skills: ["reactjs", "css"],
         },
         {
