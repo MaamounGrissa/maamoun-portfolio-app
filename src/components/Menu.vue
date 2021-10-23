@@ -4,12 +4,12 @@
           <button @click.prevent="menuTrigger">X</button>
           <nav>
               <ul>
-                  <li><a href="#intro">Intro</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#experiences">Experiences</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
-                  <li><a href="#contact">Contact Me</a></li>
+                  <li><a @click.prevent="LinkSet($event)" href="#intro">Intro</a></li>
+                  <li><a @click.prevent="LinkSet($event)" href="#education">Education</a></li>
+                  <li><a @click.prevent="LinkSet($event)" href="#experiences">Experiences</a></li>
+                  <li><a @click.prevent="LinkSet($event)" href="#skills">Skills</a></li>
+                  <li><a @click.prevent="LinkSet($event)" href="#portfolio">Portfolio</a></li>
+                  <li><a @click.prevent="LinkSet($event)" href="#contact">Contact Me</a></li>
               </ul>
           </nav>
       </div>
@@ -27,6 +27,9 @@ export default {
   methods: {
       menuTrigger() {
           this.$emit('MenuClose', this.menuClose)
+      },
+      LinkSet(event) {
+           document.querySelector(event.target.getAttribute("href")).scrollIntoView({ behavior: 'smooth', block: 'start'});
       }
   }
   
