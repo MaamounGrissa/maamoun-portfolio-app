@@ -9,7 +9,7 @@ export const en = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "Maamoun-Grissa-Resume-Aout21-EN.pdf",
+    cv: "MaamounGrissa-Resume-September21-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -27,8 +27,8 @@ export const en = {
     experience: [
         {
             logo: "anytime.png",
-            desc: "Project manager at Anytime & Anywhere",
-            mission: "Mission : Development of websites, web and mobile applications : - E-commerce plateforms using NodeJs, Express & ReactJS, Redux. - Catalog & Portfolio websites using ReactJs & MaterialUI || VueJS. - Web & Mobile app using React JS & React Native + Api using NodeJs & Express || Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
+            desc: "Manager at Anytime & Anywhere",
+            mission: "Services: Development of static websites, e-commerce platforms, web and mobile applications, Graphic Design, Companies identity, Digital Marketing, SEO ...",
             date: "2021 - Today",
         },
         {
@@ -138,6 +138,20 @@ export const en = {
             skills: ["reactjs", "css"],
         },
         {
+            name: "Belkhairat Trading",
+            photo: "bk-trading.png",
+            code: "https://github.com/MaamounGrissa",
+            url: "https://belkhairat-trading.com/",
+            skills: ["opencart", "php"],
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "",
+            url: "https://vw.autodomkst.kz/",
+            skills: ["joomla", "sass"],
+        },
+        {
             name: "Valorant Boosting",
             photo: "valorant.png",
             code: "https://github.com/MaamounGrissa/Valorant-Boosting.git",
@@ -162,7 +176,7 @@ export const en = {
             name: "My Portfolio App",
             photo: "myportfolio.png",
             code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://maamoun-grissa.netlify.app/",
+            url: "https://maamoungrissa.me/",
             skills: ["vuejs", "css"],
         },
         {
@@ -208,13 +222,6 @@ export const en = {
             skills: ["wordpress", "css"],
         },
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "",
-            url: "https://vw.autodomkst.kz/",
-            skills: ["joomla", "sass"],
-        },
-        {
             name: "Volkswagen Almaty",
             photo: "volkswagen-almaty.png",
             code: "",
@@ -256,7 +263,6 @@ export const en = {
             url: "https://bahitgul.com/",
             skills: ["wordpress", "html"],
         },
-
     ],
 
 
@@ -288,7 +294,7 @@ export const fr = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "Maamoun-Grissa-Resume-Aout21-FR.pdf",
+    cv: "MaamounGrissa-Resume-September21-FR.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -306,8 +312,8 @@ export const fr = {
     experience: [
         {
             logo: "anytime.png",
-            desc: "Chef de projet chez Anytime & Anywhere",
-            mission: "Mission : Développement de sites web, des applications web et mobile : - Plateformes E-commerce utilisant NodeJs, Express & ReactJS, Redux. - Sites Web Catalogue & Portfolio Utilisant ReactJs & MaterialUI || VueJS. - Application web et mobile utilisant React JS & React Native + Api utilisant NodeJs & Express || Laravel 8 & Livewire 2 & Tailwindcss & AlpineJs.",
+            desc: "Directeur chez Anytime & Anywhere",
+            mission: "Services : Développement de sites web statiques, de plateformes e-commerce, d'applications web et mobiles, Graphisme, Identité d'entreprises, Marketing Digital, SEO...",
             date: "2021 - Présent",
         },
         {
@@ -417,6 +423,20 @@ export const fr = {
             skills: ["reactjs", "css"],
         },
         {
+            name: "Belkhairat Trading",
+            photo: "bk-trading.png",
+            code: "https://github.com/MaamounGrissa",
+            url: "https://belkhairat-trading.com/",
+            skills: ["opencart", "php"],
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "",
+            url: "https://vw.autodomkst.kz/",
+            skills: ["joomla", "sass"],
+        },
+        {
             name: "Valorant Boosting",
             photo: "valorant.png",
             code: "https://github.com/MaamounGrissa/Valorant-Boosting.git",
@@ -441,7 +461,7 @@ export const fr = {
             name: "My Portfolio App",
             photo: "myportfolio.png",
             code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://maamoun-grissa.netlify.app/",
+            url: "https://maamoungrissa.me/",
             skills: ["vuejs", "css"],
         },
         {
@@ -487,13 +507,6 @@ export const fr = {
             skills: ["wordpress", "css"],
         },
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "",
-            url: "https://vw.autodomkst.kz/",
-            skills: ["joomla", "sass"],
-        },
-        {
             name: "Volkswagen Almaty",
             photo: "volkswagen-almaty.png",
             code: "",
@@ -535,7 +548,6 @@ export const fr = {
             url: "https://bahitgul.com/",
             skills: ["wordpress", "html"],
         },
-
     ],
 
     // Template Titles
@@ -566,7 +578,7 @@ export const ru = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "Maamoun-Grissa-Resume-Aout21-EN.pdf",
+    cv: "MaamounGrissa-Resume-September21-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -584,8 +596,8 @@ export const ru = {
     experience: [
         {
             logo: "anytime.png",
-            desc: "Менеджер проекта в Anytime & Anywhere",
-            mission: "Разработка веб-сайтов, веб-приложений и мобильных приложений: - Платформы электронной коммерции с использованием NodeJs, Express & ReactJS, Redux. - Сайты-каталоги и портфолио с использованием ReactJs и MaterialUI || VueJS. - Веб-приложение и мобильное приложение с использованием React JS и React Native + Api с использованием NodeJs и Express || Laravel 8, Livewire 2, Tailwindcss и AlpineJs.",
+            desc: "Менеджер в Anytime & Anywhere",
+            mission: "Услуги: Разработка статических веб-сайтов, платформ электронной коммерции, веб-приложений и мобильных приложений, Графический дизайн, Фирменный стиль компаний, Цифровой маркетинг, SEO ...",
             date: "2021 - Сегодня",
         },        
         {
@@ -695,6 +707,20 @@ export const ru = {
             skills: ["reactjs", "css"],
         },
         {
+            name: "Belkhairat Trading",
+            photo: "bk-trading.png",
+            code: "https://github.com/MaamounGrissa",
+            url: "https://belkhairat-trading.com/",
+            skills: ["opencart", "php"],
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "",
+            url: "https://vw.autodomkst.kz/",
+            skills: ["joomla", "sass"],
+        },
+        {
             name: "Valorant Boosting",
             photo: "valorant.png",
             code: "https://github.com/MaamounGrissa/Valorant-Boosting.git",
@@ -719,7 +745,7 @@ export const ru = {
             name: "My Portfolio App",
             photo: "myportfolio.png",
             code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://maamoun-grissa.netlify.app/",
+            url: "https://maamoungrissa.me/",
             skills: ["vuejs", "css"],
         },
         {
@@ -765,13 +791,6 @@ export const ru = {
             skills: ["wordpress", "css"],
         },
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "",
-            url: "https://vw.autodomkst.kz/",
-            skills: ["joomla", "sass"],
-        },
-        {
             name: "Volkswagen Almaty",
             photo: "volkswagen-almaty.png",
             code: "",
@@ -813,7 +832,6 @@ export const ru = {
             url: "https://bahitgul.com/",
             skills: ["wordpress", "html"],
         },
-
     ],
 
     // Template Titles
@@ -845,7 +863,7 @@ export const ar = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "Maamoun-Grissa-Resume-Aout21-EN.pdf",
+    cv: "MaamounGrissa-Resume-September21-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -863,8 +881,8 @@ export const ar = {
     experience: [
         {
             logo: "anytime.png",
-            desc: "رئيس مشروع برمجة واب بشركة Anytime & Anywhere",
-            mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب و الهاتف : تطوير و برمجة مواقع للتجارة الالكترونية و المواقع والتطبيقات الخاصة بالأفراد و الشركات",
+            desc: "مدير بشركة Anytime & Anywhere",
+            mission: "الخدمات: تطوير مواقع الويب، منصات التجارة الإلكترونية ، تطبيقات الويب والهاتف، التصميم الجرافيكي ، هوية الشركات ، التسويق الرقمي ، تحسين محركات البحث ...",
             date: "2021 - اليوم",
         },
         {
@@ -974,6 +992,20 @@ export const ar = {
             skills: ["reactjs", "css"],
         },
         {
+            name: "Belkhairat Trading",
+            photo: "bk-trading.png",
+            code: "https://github.com/MaamounGrissa",
+            url: "https://belkhairat-trading.com/",
+            skills: ["opencart", "php"],
+        },
+        {
+            name: "Volkswagen Costanai",
+            photo: "volkswagen-costanai.png",
+            code: "",
+            url: "https://vw.autodomkst.kz/",
+            skills: ["joomla", "sass"],
+        },
+        {
             name: "Valorant Boosting",
             photo: "valorant.png",
             code: "https://github.com/MaamounGrissa/Valorant-Boosting.git",
@@ -998,7 +1030,7 @@ export const ar = {
             name: "My Portfolio App",
             photo: "myportfolio.png",
             code: "https://github.com/MaamounGrissa/maamoun-portfolio-app",
-            url: "https://maamoun-grissa.netlify.app/",
+            url: "https://maamoungrissa.me/",
             skills: ["vuejs", "css"],
         },
         {
@@ -1044,13 +1076,6 @@ export const ar = {
             skills: ["wordpress", "css"],
         },
         {
-            name: "Volkswagen Costanai",
-            photo: "volkswagen-costanai.png",
-            code: "",
-            url: "https://vw.autodomkst.kz/",
-            skills: ["joomla", "sass"],
-        },
-        {
             name: "Volkswagen Almaty",
             photo: "volkswagen-almaty.png",
             code: "",
@@ -1092,7 +1117,6 @@ export const ar = {
             url: "https://bahitgul.com/",
             skills: ["wordpress", "html"],
         },
-
     ],
 
     // Template Titles
