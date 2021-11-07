@@ -9,7 +9,7 @@ export const en = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "MaamounGrissa-Resume-September21-EN.pdf",
+    cv: "MaamounGrissa-Resume-November21-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -294,7 +294,7 @@ export const fr = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "MaamounGrissa-Resume-September21-FR.pdf",
+    cv: "MaamounGrissa-Resume-November21-FR.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -578,7 +578,7 @@ export const ru = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "MaamounGrissa-Resume-September21-EN.pdf",
+    cv: "MaamounGrissa-Resume-November21-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -863,7 +863,7 @@ export const ar = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "MaamounGrissa-Resume-September21-EN.pdf",
+    cv: "MaamounGrissa-Resume-November21-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
