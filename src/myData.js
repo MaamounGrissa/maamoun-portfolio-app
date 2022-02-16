@@ -1,11 +1,11 @@
 export const en = {
     lang: "en",
     name: "Maamoun Grissa",
-    job: "Web Developer",
+    job: "FullStack Web Developer",
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Innovative Full Stack Web Developer with 4 years of experience in websites, web-apps and mobile-apps design and coding. Demonstrated talent for front and back-end web development to optimize online presence. Seasoned expert in languages such as HTML, CSS, JavaScript, php, mySql.",
+    intro: "Innovative Full Stack Web Developer with 4 years of experience in websites, web & mobile applications design and coding. Demonstrated talent for frontend and backend web development to optimize online presence. A seasoned expert in HTML, CSS, JavaScript, PHP,  MySQL, MongoDB, NodeJs, ReactJs, NextJs, VueJs, ReactNative, Ionic Framework ...",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -25,6 +25,12 @@ export const en = {
         },
     ],
     experience: [
+        {
+            logo: "squadio.png",
+            desc: "Frontend Web Developer",
+            mission: "Missions: Development of internal system - ReactJS - Redux - Laravel ...",
+            date: "2021 - Today",
+        },
         {
             logo: "anytime.png",
             desc: "Manager at Anytime & Anywhere",
@@ -286,11 +292,11 @@ export const en = {
 export const fr = {
     lang: "fr",
     name: "Maàmoun Grissa",
-    job: "Développeur Web",
+    job: "Développeur Web FullStack",
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Développeur Web Full Stack innovant avec 4 ans d'expérience dans la conception et le codage de sites Web, d'applications Web et d'applications mobiles. Talent démontré pour le développement Web front-end et back-end afin d'optimiser la présence en ligne. Expert chevronné des langages tels que HTML, CSS, JavaScript, php, mySql.",
+    intro: "Développeur Web Full Stack innovant avec 4 ans d'expérience dans la conception et le codage de sites Web, d'applications Web et mobile. Talent démontré pour le développement Web frontend et backend afin d'optimiser la présence en ligne. Un expert chevronné en HTML, CSS, JavaScript, PHP, MySQL, MongoDB, NodeJs, ReactJs, NextJs, VueJs, ReactNative, Ionic Framework...",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -310,6 +316,12 @@ export const fr = {
         },
     ],
     experience: [
+        {
+            logo: "squadio.png",
+            desc: "Développeur Web Frontend",
+            mission: "Missions: Developpement de système interne - ReactJS - Redux - Laravel ...",
+            date: "2021 - Présent",
+        },
         {
             logo: "anytime.png",
             desc: "Directeur chez Anytime & Anywhere",
@@ -570,11 +582,11 @@ export const fr = {
 export const ru = {
     lang: "ru",
     name: "Маамун Грисса",
-    job: "Веб-Разработчик",
+    job: "Веб-Разработчик Полного Стека",
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "Инновационный веб-разработчик полного стека с 4-летним опытом разработки и кодирования веб-сайтов, веб-приложений и мобильных приложений. Продемонстрировал талант к фронтальной и серверной веб-разработке для оптимизации присутствия в Интернете. Опытный эксперт в таких языках, как HTML, CSS, JavaScript, php, MySQL.",
+    intro: "Инновационный веб-разработчик полного стека с 4-летним опытом работы в разработке и кодировании веб-сайтов, веб-приложений и мобильных приложений. Продемонстрированный талант к интерфейсной и серверной веб-разработке для оптимизации присутствия в Интернете. Опытный эксперт в HTML, CSS, JavaScript, PHP, MySQL, MongoDB, NodeJS, ReactJS, NextJs, Vue Js, React Native, Ionic Framework ...",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -594,6 +606,12 @@ export const ru = {
         },
     ],
     experience: [
+        {
+            logo: "squadio.png",
+            desc: "Разработчик веб-приложений Frontend, Squadio, (Удаленный)",
+            mission: "Обязанности:  Разработка и поддержка веб-приложений",
+            date: "2021 - Сегодня",
+        },
         {
             logo: "anytime.png",
             desc: "Менеджер в Anytime & Anywhere",
@@ -859,7 +877,7 @@ export const ar = {
     age: 33,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "مطور تطبيقات ويب ومطور برامج متكامل (Full Stack)، أعيش حاليًا في سوسة ، تونس. تركيزي الأساسي وإلهامي في دراستي هو تطوير الويب والبرمجة. أتطلع باستمرار التقنيات الجديدة ومتحمس جدًا للتطوير و البرمجة، وأسعى جاهداً لتحسين نفسي في مجالي الواب و تطبيقات الهاتف.",
+    intro: "مطور ومبرمج ويب مبتكر Full Stack يتمتع بخبرة 4 سنوات في برمجة مواقع الويب وتصميم تطبيقات الويب والجوال. موهبة ثابة في تطوير الويب لتحسين التواجد عبر الإنترنت. خبير متمرس في HTML، CSS، JavaScript، PHP، MySQL، MongoDB، NodeJs، ReactJs, NextJs، VueJs، ReactNative، Ionic Framework ...",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -879,6 +897,12 @@ export const ar = {
         },
     ],
     experience: [
+        {
+            logo: "squadio.png",
+            desc: "مبرمج واب بشركة ابتكار، (عن بعد)",
+            mission: "",
+            date: "2021 - اليوم",
+        },
         {
             logo: "anytime.png",
             desc: "مدير بشركة Anytime & Anywhere",

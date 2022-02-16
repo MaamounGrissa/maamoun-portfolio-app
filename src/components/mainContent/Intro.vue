@@ -49,7 +49,7 @@ import VueFeather from 'vue-feather';
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin-bottom: 5px;
         color: #1f203a;
     }
