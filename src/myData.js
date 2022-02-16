@@ -9,7 +9,7 @@ export const en = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "MaamounGrissa-Resume-November21-EN.pdf",
+    cv: "MaamounGrissa-Resume-Fevrier22-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -27,8 +27,8 @@ export const en = {
     experience: [
         {
             logo: "squadio.png",
-            desc: "Frontend Web Developer",
-            mission: "Missions: Development of internal system - ReactJS - Redux - Laravel ...",
+            desc: "Frontend Web Developer at Squadio, Saudi Arabia (Remote)",
+            mission: "Missions: Development & support web applications - ReactJS - Redux - Laravel ...",
             date: "2021 - Today",
         },
         {
@@ -300,7 +300,7 @@ export const fr = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "MaamounGrissa-Resume-November21-FR.pdf",
+    cv: "MaamounGrissa-Resume-Fevrier22-FR.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -318,8 +318,8 @@ export const fr = {
     experience: [
         {
             logo: "squadio.png",
-            desc: "Développeur Web Frontend",
-            mission: "Missions: Developpement de système interne - ReactJS - Redux - Laravel ...",
+            desc: "Développeur Web Frontend chez Squadio, Arabie Saoudite (télétravail)",
+            mission: "Missions: Développement et support des applications web - ReactJS - Redux - Laravel ...",
             date: "2021 - Présent",
         },
         {
@@ -590,7 +590,7 @@ export const ru = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "MaamounGrissa-Resume-November21-EN.pdf",
+    cv: "MaamounGrissa-Resume-Fevrier22-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -608,8 +608,8 @@ export const ru = {
     experience: [
         {
             logo: "squadio.png",
-            desc: "Разработчик веб-приложений Frontend, Squadio, (Удаленный)",
-            mission: "Обязанности:  Разработка и поддержка веб-приложений",
+            desc: "Разработчик веб-приложений Frontend, Squadio, Саудовская Аравия (Удаленный)",
+            mission: "Обязанности:  Разработка и поддержка веб-приложений - React js - Redux - Laravel ...",
             date: "2021 - Сегодня",
         },
         {
@@ -881,7 +881,7 @@ export const ar = {
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
-    cv: "MaamounGrissa-Resume-November21-EN.pdf",
+    cv: "MaamounGrissa-Resume-Fevrier22-EN.pdf",
     education: [
         {
             logo: "iset.jpg",
@@ -900,7 +900,7 @@ export const ar = {
         {
             logo: "squadio.png",
             desc: "مبرمج واب بشركة ابتكار، (عن بعد)",
-            mission: "",
+            mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب",
             date: "2021 - اليوم",
         },
         {
