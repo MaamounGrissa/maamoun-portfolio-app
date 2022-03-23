@@ -130,12 +130,19 @@ export const en = {
             skills: ["reactjs", "nodejs"],
         },
         {
+            name: "KineDoc",
+            photo: "kinedoc.png",
+            code: "https://github.com/MaamounGrissa/kinedoc.git",
+            url: "https://kinedocrdv.fr/",
+            skills: ["reactjs", "nodejs"],
+        },
+        /* {
             name: "Arine Conseils",
             photo: "arine.png",
             code: "https://github.com/MaamounGrissa/aca-next.git",
             url: "https://arine-conseils.com/",
             skills: ["next", "css"],
-        },
+        }, */
         {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
@@ -421,12 +428,19 @@ export const fr = {
             skills: ["reactjs", "nodejs"],
         },
         {
+            name: "KineDoc",
+            photo: "kinedoc.png",
+            code: "https://github.com/MaamounGrissa/kinedoc.git",
+            url: "https://kinedocrdv.fr/",
+            skills: ["reactjs", "nodejs"],
+        },
+        /* {
             name: "Arine Conseils",
             photo: "arine.png",
             code: "https://github.com/MaamounGrissa/aca-next.git",
             url: "https://arine-conseils.com/",
             skills: ["next", "css"],
-        },
+        }, */
         {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
@@ -711,12 +725,19 @@ export const ru = {
             skills: ["reactjs", "nodejs"],
         },
         {
+            name: "KineDoc",
+            photo: "kinedoc.png",
+            code: "https://github.com/MaamounGrissa/kinedoc.git",
+            url: "https://kinedocrdv.fr/",
+            skills: ["reactjs", "nodejs"],
+        },
+        /* {
             name: "Arine Conseils",
             photo: "arine.png",
             code: "https://github.com/MaamounGrissa/aca-next.git",
             url: "https://arine-conseils.com/",
             skills: ["next", "css"],
-        },
+        }, */
         {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
@@ -1002,12 +1023,19 @@ export const ar = {
             skills: ["reactjs", "nodejs"],
         },
         {
+            name: "KineDoc",
+            photo: "kinedoc.png",
+            code: "https://github.com/MaamounGrissa/kinedoc.git",
+            url: "https://kinedocrdv.fr/",
+            skills: ["reactjs", "nodejs"],
+        },
+        /* {
             name: "Arine Conseils",
             photo: "arine.png",
             code: "https://github.com/MaamounGrissa/aca-next.git",
             url: "https://arine-conseils.com/",
             skills: ["next", "css"],
-        },
+        }, */
         {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
