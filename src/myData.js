@@ -26,6 +26,12 @@ export const en = {
     ],
     experience: [
         {
+            logo: "creo.png",
+            desc: "CEO & Co-Founder of Creo Digital",
+            mission: "Services: Development of static websites, e-commerce platforms, web and mobile applications, Graphic Design, Companies identity, Digital Marketing, SEO ...",
+            date: "2022 - Today",
+        },
+        {
             logo: "squadio.png",
             desc: "Frontend Web Developer at Squadio, Saudi Arabia (Remote)",
             mission: "Missions: Development & support web applications - ReactJS - Redux - Laravel ...",
@@ -35,7 +41,7 @@ export const en = {
             logo: "anytime.png",
             desc: "Manager at Anytime & Anywhere",
             mission: "Services: Development of static websites, e-commerce platforms, web and mobile applications, Graphic Design, Companies identity, Digital Marketing, SEO ...",
-            date: "2021 - Today",
+            date: "2021 - 2022",
         },
         {
             logo: "freelancer.png",
@@ -136,13 +142,13 @@ export const en = {
             url: "https://kinedocrdv.fr/",
             skills: ["reactjs", "nodejs"],
         },
-        /* {
+        {
             name: "Arine Conseils",
             photo: "arine.png",
             code: "https://github.com/MaamounGrissa/aca-next.git",
             url: "https://arine-conseils.com/",
             skills: ["next", "css"],
-        }, */
+        },
         {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
@@ -171,13 +177,13 @@ export const en = {
             url: "https://valorantboosting.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
         },
-        {
+        /*{
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
             url: "https://dnl-deco.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
-        },
+        },*/
         {
             name: "Dali Market",
             photo: "dalimarket.png",
@@ -324,6 +330,12 @@ export const fr = {
     ],
     experience: [
         {
+            logo: "creo.png",
+            desc: "PDG et co-fondateur de Creo Digitale",
+            mission: "Services : Développement de sites web statiques, de plateformes e-commerce, d'applications web et mobiles, Graphisme, Identité d'entreprises, Marketing Digital, SEO...",
+            date: "2022 - Présent",
+        },
+        {
             logo: "squadio.png",
             desc: "Développeur Web Frontend chez Squadio, Arabie Saoudite (télétravail)",
             mission: "Missions: Développement et support des applications web - ReactJS - Redux - Laravel ...",
@@ -333,7 +345,7 @@ export const fr = {
             logo: "anytime.png",
             desc: "Directeur chez Anytime & Anywhere",
             mission: "Services : Développement de sites web statiques, de plateformes e-commerce, d'applications web et mobiles, Graphisme, Identité d'entreprises, Marketing Digital, SEO...",
-            date: "2021 - Présent",
+            date: "2021 - 2022",
         },
         {
             logo: "freelancer.png",
@@ -434,13 +446,13 @@ export const fr = {
             url: "https://kinedocrdv.fr/",
             skills: ["reactjs", "nodejs"],
         },
-        /* {
+        {
             name: "Arine Conseils",
             photo: "arine.png",
             code: "https://github.com/MaamounGrissa/aca-next.git",
             url: "https://arine-conseils.com/",
             skills: ["next", "css"],
-        }, */
+        },
         {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
@@ -469,13 +481,13 @@ export const fr = {
             url: "https://valorantboosting.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
         },
-        {
+        /*{
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
             url: "https://dnl-deco.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
-        },
+        },*/
         {
             name: "Dali Market",
             photo: "dalimarket.png",
@@ -621,6 +633,12 @@ export const ru = {
     ],
     experience: [
         {
+            logo: "creo.png",
+            desc: "Генеральный директор и соучредитель Creo Digital",
+            mission: "Услуги: Разработка статических веб-сайтов, платформ электронной коммерции, веб-приложений и мобильных приложений, Графический дизайн, Фирменный стиль компаний, Цифровой маркетинг, SEO ...",
+            date: "2022 - Сегодня",
+        },
+        {
             logo: "squadio.png",
             desc: "Разработчик веб-приложений Frontend, Squadio, Саудовская Аравия (Удаленный)",
             mission: "Обязанности:  Разработка и поддержка веб-приложений - React js - Redux - Laravel ...",
@@ -630,7 +648,7 @@ export const ru = {
             logo: "anytime.png",
             desc: "Менеджер в Anytime & Anywhere",
             mission: "Услуги: Разработка статических веб-сайтов, платформ электронной коммерции, веб-приложений и мобильных приложений, Графический дизайн, Фирменный стиль компаний, Цифровой маркетинг, SEO ...",
-            date: "2021 - Сегодня",
+            date: "2021 - 2022",
         },        
         {
             logo: "freelancer.png",
@@ -731,13 +749,13 @@ export const ru = {
             url: "https://kinedocrdv.fr/",
             skills: ["reactjs", "nodejs"],
         },
-        /* {
+        {
             name: "Arine Conseils",
             photo: "arine.png",
             code: "https://github.com/MaamounGrissa/aca-next.git",
             url: "https://arine-conseils.com/",
             skills: ["next", "css"],
-        }, */
+        },
         {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
@@ -766,13 +784,13 @@ export const ru = {
             url: "https://valorantboosting.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
         },
-        {
+        /*{
             name: "DNL Deco",
             photo: "dnl.png",
             code: "https://github.com/MaamounGrissa/dnl",
             url: "https://dnl-deco.herokuapp.com/",
             skills: ["reactjs", "nodejs"],
-        },
+        },*/
         {
             name: "Dali Market",
             photo: "dalimarket.png",
@@ -898,7 +916,7 @@ export const ar = {
     age: 34,
     phone: "+21650870256",
     email: "grissa.maamoun@gmail.com",
-    intro: "مطور ومبرمج ويب مبتكر Full Stack يتمتع بخبرة 4 سنوات في برمجة مواقع الويب وتصميم تطبيقات الويب والجوال. موهبة ثابة في تطوير الويب لتحسين التواجد عبر الإنترنت. خبير متمرس في HTML، CSS، JavaScript، PHP، MySQL، MongoDB، NodeJs، ReactJs, NextJs، VueJs، ReactNative، Ionic Framework ...",
+    intro: "مطور ومبرمج ويب مبتكر Full Stack يتمتع بخبرة 4 سنوات في برمجة مواقع الويب وتصميم تطبيقات الويب والجوال. متخصص في تطوير الويب لتحسين التواجد في الإنترنت. خبير متمرس في HTML، CSS، JavaScript، PHP، MySQL، MongoDB، NodeJs، ReactJs, NextJs، VueJs، ReactNative، Ionic Framework ...",
     linkedin: "maamoun-grissa",
     facebook: "maamoung",
     instagram: "gmaamoun",
@@ -919,6 +937,12 @@ export const ar = {
     ],
     experience: [
         {
+            logo: "creo.png",
+            desc: "الرئيس التنفيذي والشريك المؤسس لشركة Creo Digital",
+            mission: "الخدمات: تطوير مواقع الويب، منصات التجارة الإلكترونية ، تطبيقات الويب والهاتف، التصميم الجرافيكي ، هوية الشركات ، التسويق الرقمي ، تحسين محركات البحث ...",
+            date: "2022 - اليوم",
+        },
+        {
             logo: "squadio.png",
             desc: "مبرمج واب بشركة ابتكار، (عن بعد)",
             mission: "المهمة: برمجة و تتطوير المواقع و برمجيات الواب",
@@ -928,7 +952,7 @@ export const ar = {
             logo: "anytime.png",
             desc: "مدير بشركة Anytime & Anywhere",
             mission: "الخدمات: تطوير مواقع الويب، منصات التجارة الإلكترونية ، تطبيقات الويب والهاتف، التصميم الجرافيكي ، هوية الشركات ، التسويق الرقمي ، تحسين محركات البحث ...",
-            date: "2021 - اليوم",
+            date: "2021 - 2022",
         },
         {
             logo: "freelancer.png",
@@ -1029,13 +1053,13 @@ export const ar = {
             url: "https://kinedocrdv.fr/",
             skills: ["reactjs", "nodejs"],
         },
-        /* {
+        {
             name: "Arine Conseils",
             photo: "arine.png",
             code: "https://github.com/MaamounGrissa/aca-next.git",
             url: "https://arine-conseils.com/",
             skills: ["next", "css"],
-        }, */
+        },
         {
             name: "Anytime & Anywhere",
             photo: "anytime.png",
